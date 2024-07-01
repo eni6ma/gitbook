@@ -23,6 +23,7 @@
 * [Fundamental of Security](theoretical/fundamental-of-security.md)
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
 * [Quantum Manifolds](theoretical/quantum-manifolds.md)
+* [Towards Quantum Manifold Proofs](theoretical/towards-quantum-manifold-proofs.md)
 
 ## TECHNICAL SPECS
 
@@ -56,4 +57,3 @@
 
 * [REFERENCES](references/references.md)
 * [GLOSSARY](references/glossary.md)
-* [CITATIONS](references/citations.md)
