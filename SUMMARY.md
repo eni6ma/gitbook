@@ -5,12 +5,14 @@
 * [Our MoonShot](README.md)
 * [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)
-* [The Team](the-eni6ma-cypher-rosario-wang-proof/the-team.md)
 * [BigTech's MFA Exploitation](the-eni6ma-cypher-rosario-wang-proof/bigtechs-mfa-exploitation.md)
 * [Eni6ma vs. MFA/FIDO](the-eni6ma-cypher-rosario-wang-proof/eni6ma-vs.-mfa-fido.md)
+* [Navigating the Convergence](the-eni6ma-cypher-rosario-wang-proof/navigating-the-convergence.md)
+* [Password Brute Force](the-eni6ma-cypher-rosario-wang-proof/password-brute-force.md)
 
 ## The Patent & Innovation
 
+* [The Team](the-patent-and-innovation/the-team.md)
 * [The Rosario-Wang Primitive](the-patent-and-innovation/the-rosario-wang-primitive.md)
 * [The Rosario-Wang Proof](the-patent-and-innovation/the-rosario-wang-proof.md)
 * [Verification Protocol](the-patent-and-innovation/verification-protocol.md)
