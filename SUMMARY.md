@@ -3,6 +3,7 @@
 ## The Eni6ma Cypher (Rosario-Wang Proof)
 
 * [Our MoonShot](README.md)
+* [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)
 * [The Team](the-eni6ma-cypher-rosario-wang-proof/the-team.md)
 * [BigTech's MFA Exploitation](the-eni6ma-cypher-rosario-wang-proof/bigtechs-mfa-exploitation.md)
