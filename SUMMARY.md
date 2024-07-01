@@ -16,25 +16,24 @@
 
 ## Theoretical
 
+* [Quantum Manifolds](theoretical/quantum-manifolds.md)
 * [The Cybernetics (Human/Machine) challenge.](theoretical/the-cybernetics-human-machine-challenge..md)
 * [Cybernetic Cryptography](theoretical/cybernetic-cryptography.md)
 * [Cryptographic Primitives](theoretical/cryptographic-primitives.md)
 * [On Proof Systems](theoretical/on-proof-systems.md)
 * [Fundamental of Security](theoretical/fundamental-of-security.md)
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
-* [Quantum Manifolds](theoretical/quantum-manifolds.md)
-* [Towards Quantum Manifold Proofs](theoretical/towards-quantum-manifold-proofs.md)
 
 ## TECHNICAL SPECS
 
+* [PROTOCOL](technical-specs/protocol.md)
+* [END TO END](technical-specs/end-to-end.md)
 * [COMPONENTS](technical-specs/components/README.md)
   * [COMMITMENT](technical-specs/components/commitment.md)
   * [PRIVATE KEY](technical-specs/components/private-key.md)
   * [PUBLIC KEY](technical-specs/components/public-key.md)
   * [SECRET MNEMONIC ](technical-specs/components/secret-mnemonic.md)
   * [VERIFIER](technical-specs/components/verifier.md)
-* [END TO END](technical-specs/end-to-end.md)
-* [PROTOCOL](technical-specs/protocol.md)
 * [INTEGRATIONS](technical-specs/integrations.md)
 
 ## National Security
