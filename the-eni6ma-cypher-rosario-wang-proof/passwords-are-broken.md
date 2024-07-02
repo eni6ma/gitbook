@@ -6,9 +6,7 @@ description: Password-Based Authentication is Broken
 
 Feb 7, 2024
 
-
-
-<figure><img src="https://miro.medium.com/v2/resize:fit:835/1*xlgxSUuJTILmLYxeZU7XVw.png" alt="" height="369" width="623"><figcaption></figcaption></figure>
+{% embed url="https://vimeo.com/908983061" %}
 
 Abstract — This article delves into the domain of password-based authentication, a cornerstone in the sphere of authentication and authorization. Despite the advent of numerous alternative methods, passwords remain a prevalent and sufficiently private solution to meet a wide array of security needs. This study provides a comprehensive analysis of various authentication schemes, discussing their respective advantages and drawbacks, as well as the often-observed misalignment between user interactions and password systems. We delve into the historical development of passwords and their seamless integration into everyday life, shedding light on the divergent views held by users and the technological industry at large. The discussion is structured by bifurcating password-based authentication into two distinct approaches: User-Centric Design, which prioritizes user experience and interaction, and Machine-Centric Protocol, which focuses on the technical and security aspects of authentication systems. The paper concludes by outlining strategies used to enhance the security and efficacy of password systems, thereby addressing the contemporary challenges faced in the realm of digital security.
 
