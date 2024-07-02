@@ -23,6 +23,8 @@
    * Ensures privacy, trust, autonomy, and justice by preventing eavesdropping and unauthorized access.
    * Promotes autonomy by securing personal information and preventing breaches.
 
+<figure><img src="https://miro.medium.com/v2/resize:fit:835/1*xlgxSUuJTILmLYxeZU7XVw.png" alt="" height="369" width="623"><figcaption></figcaption></figure>
+
 ## Eni6ma (RW Cypher) vs  Multi-Factor Authentication (MFA)
 
 MFA fundamentally introduces both friction and complexity to the authentication process in order to achieve only nominal security enhancement by adding hardware and network dependency to the process. The requirement to carry a device and manage network connectivity can be cumbersome for users, potentially leading to resistance or non-compliance. Additionally, MFA systems are not immune to phishing attacks, social engineering, and man-in-the-middle attacks that can compromise the secondary authentication factors.
