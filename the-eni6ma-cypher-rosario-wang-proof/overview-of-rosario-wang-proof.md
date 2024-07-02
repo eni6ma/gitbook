@@ -96,6 +96,8 @@ Schrödinger's indeterminacy, also known as the Heisenberg Uncertainty Principle
 \
 The Heisenberg Uncertainty Principle, or  Schrödinger's  indeterminacy, has significant implications when applied to non-deterministic manifold projections that rely on perfect random entropy. In such systems, the principle underscores the inherent unpredictability and the limits of precision in measuring quantum states. When applying this principle to non-deterministic manifold projections, which are used in advanced cryptographic systems like the Rosario Cypher, it ensures that the entropy—or randomness—required for secure encryption is truly random and indeterminable.
 
+{% embed url="https://vimeo.com/730909511" %}
+
 ### **RW Cypher's Quantum Projections**
 
 The Heisenberg Uncertainty Principle, or Schrödinger's indeterminacy, plays a crucial role in the context of non-deterministic manifold projections used in advanced cryptographic systems. This principle states that it is impossible to simultaneously know both the exact position and momentum of a particle with absolute precision. When applied to non-deterministic manifold projections, which rely on perfect random entropy, this principle underscores the inherent unpredictability and limits of precision in measuring quantum states used in all known Quantum  attack vectors.

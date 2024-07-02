@@ -80,6 +80,8 @@ Collectively, these solutions tackle various facets of password-related challeng
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:938/0*D5vhGgHIuTnKsSMb" alt="" height="550" width="700"><figcaption><p>Photo by Michael Dziedzic on Unsplash</p></figcaption></figure>
 
+{% embed url="https://vimeo.com/909245215" %}
+
 ## III. PASSWORD-BASED AUTHENTICATION SCHEMES <a href="#id-8ffb" id="id-8ffb"></a>
 
 Password-based authentication is broadly categorized into two distinct approaches: the User-Centric Approach and the Machine-Centric Approach. The Machine-Centric Approach encompasses machine-to-machine password exchanges and relies on protocol-based authentication schemes. Conversely, the User-Centric Approach is defined by secure password entry in user-to-machine interactions, emphasizing design-based authentication schemes. Enhancing both approaches can lead to more efficient and effective authentication systems.
