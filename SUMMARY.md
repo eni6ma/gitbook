@@ -26,6 +26,7 @@
 * [On Proof Systems](theoretical/on-proof-systems.md)
 * [Fundamental of Security](theoretical/fundamental-of-security.md)
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
+* [Gödel's Incompleteness Of ZKPs](theoretical/godels-incompleteness-of-zkps.md)
 
 ## TECHNICAL SPECS
 
