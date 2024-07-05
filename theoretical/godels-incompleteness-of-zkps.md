@@ -8,6 +8,30 @@ description: Application of Gödel's Incompleteness On Zero Knowledge Proofs
 
 Gödel's Incompleteness Theorems and zero-knowledge proofs (ZKPs) both reveal fundamental limitations in formal systems and cryptographic protocols. Gödel's theorems establish that in any sufficiently powerful formal system, there exist true statements that cannot be proven within that system. Zero-knowledge proofs, in a parallel fashion, enable one party (the prover) to convince another party (the verifier) of the truth of a statement without revealing the proof itself. This paper explores the intersection of these concepts, demonstrating that just as Gödel's theorems highlight the existence of true but unprovable statements, ZKPs allow the validation of truths while keeping the proof hidden.
 
+## Overview
+
+Gödel's Incompleteness Theorems are two fundamental theorems in mathematical logic that have profound implications for the limits of formal systems. Here is a concise explanation of these theorems as they pertain to proofs that may be proven but cannot be derived from the system:
+
+1. **First Incompleteness Theorem**:
+   * **Statement**: In any consistent formal system that is capable of expressing elementary arithmetic, there exist propositions that are true but cannot be proven within the system.
+   * **Implication**: This theorem reveals that no matter how comprehensive a formal system is, there will always be true statements about the natural numbers that the system cannot prove. In other words, there are mathematical truths that lie beyond the reach of formal proof within the system itself.
+2. **Second Incompleteness Theorem**:
+   * **Statement**: No consistent system can prove its own consistency.
+   * **Implication**: If a formal system can prove its own consistency, it is, in fact, inconsistent. This means that a system cannot use its own axioms and inference rules to demonstrate that no contradictions can be derived from them.
+
+#### Application to Proofs That Cannot Be Derived from the System
+
+Gödel's Incompleteness Theorems imply that within any sufficiently powerful formal system (such as Peano arithmetic), there exist statements (Gödel sentences) that are true but unprovable within the system. These theorems can be understood through the lens of proof and derivation as follows:
+
+* **True but Unprovable Statements**: There are certain statements ( G ) that, although true, cannot be derived using the axioms and rules of inference of the formal system. These statements ( G ) are constructed in such a way that if the system were to prove ( G ), it would lead to a contradiction, thus implying the system is inconsistent.
+* **Gödel Sentence**: For a formal system ( S ), Gödel constructed a specific statement ( G\_S ) which essentially says, "This statement is not provable in ( S )." If ( G\_S ) were provable in ( S ), ( S ) would be inconsistent because it would prove a statement that asserts its own unprovability.
+
+### Fundamental Statement
+
+In essence, Gödel's Incompleteness Theorems demonstrate that there are intrinsic limitations to what can be achieved with formal mathematical systems. There are truths that exist outside the boundaries of formal derivation, illustrating that the scope of formal proofs is inherently limited. This challenges the notion that mathematics, or any formal system, can be completely understood and proven solely through its own rules and axioms.
+
+### Exploration
+
 By examining scenarios such as the Hamiltonian cycle problem, we illustrate how ZKPs embody the principles of incompleteness, showing that some truths can be acknowledged without formal derivation or disclosure. This relationship underscores the deep connections between mathematical logic and cryptographic protocols, emphasizing the intertwined nature of provability and secrecy.
 
 Gödel's Incompleteness Theorems are embodied in the concept of zero-knowledge proofs involving probability within a formal system and the properties of zero-knowledge proofs (ZKPs). Zero-knowledge proofs allow one party (the prover) to convince another party (the verifier) that a statement is true without revealing any information beyond the validity of the statement itself.
@@ -20,7 +44,7 @@ Zero-knowledge proofs are a type of cryptographic protocol that ensures the foll
 2. Soundness: If the statement is false, no cheating prover can convince the honest verifier that it is true, except with some small probability.
 3. Zero-Knowledge: If the statement is true, the verifier learns nothing other than the fact that the statement is true.
 
-### 2. Applying Gödel's Incompleteness to Zero-Knowledge Proofs
+### 2. Application of Gödel's Incompleteness in Zero-Knowledge Proofs
 
 Gödel's Incompleteness Theorems imply that within any sufficiently powerful formal system, there exist true statements that cannot be proven within the system. Applying this to zero-knowledge proofs, we can draw several parallels and insights:
 
