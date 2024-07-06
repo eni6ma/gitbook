@@ -24,13 +24,15 @@ Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
 David Berger : Harvard; Integra Blockchain
 
-Nicholas Hoffman : NYU; Leapstone
+Louis Lau : Stanford University;  PhD Candidate ; Mathematics/Cryptography
+
+Salim Masmoudi : Université Savoie Mont Blanc; MS - Computer Science
 
 Steven Echtman : University Buffalo; AiIfy.io
 
-Julian Rocha : Berkeley; Nurrl
+Julian Rocha : Berkeley; Nurrl; Artificial Intelligence Alignment
 
-Masha Leshenko :   Bit Basel\
+\
 \
 
 
