@@ -24,6 +24,8 @@ Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
 David Berger : Harvard; Integra Blockchain
 
+Dr. Matthew Richter; Stanford University - Quantum Physics
+
 Louis Lau : Stanford University;  PhD Candidate ; Mathematics/Cryptography
 
 Salim Masmoudi : Université Savoie Mont Blanc; MS - Computer Science
