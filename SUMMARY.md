@@ -49,6 +49,7 @@
 
 ## EXAMPLE/DEMO
 
+* [SuperIntelligence : Asimov Engine](example-demo/superintelligence-asimov-engine.md)
 * [Use Cases](example-demo/use-cases.md)
 * [Examples](example-demo/examples/README.md)
   * [VIDEO](example-demo/examples/video.md)
