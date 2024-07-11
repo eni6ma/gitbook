@@ -22,6 +22,8 @@ Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
 
+Jeff Shaw : Y Combinator; Underground Cellar
+
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
 David Berger : Harvard; Integra Blockchain
