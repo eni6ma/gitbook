@@ -16,6 +16,8 @@ Dr. Lin Wang - Duke University ; Quantum Physics , Signals, & Cryptography; Unit
 
 ***
 
+Eric Johnson - 1st Lt.  OCS US Army ; Defense Communication Systems&#x20;
+
 Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
