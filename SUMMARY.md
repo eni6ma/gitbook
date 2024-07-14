@@ -30,7 +30,7 @@
 
 ## TECHNICAL SPECS
 
-* [PROTOCOL](technical-specs/protocol.md)
+* [ZERO-TRUST PROTOCOL](technical-specs/zero-trust-protocol.md)
 * [END TO END](technical-specs/end-to-end.md)
 * [COMPONENTS](technical-specs/components/README.md)
   * [COMMITMENT](technical-specs/components/commitment.md)
