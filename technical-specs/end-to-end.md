@@ -65,9 +65,9 @@ Here we specify an SPI calculus interpretation of our trial protocol metaphor de
 
 This structured representation of your payloads using SPI calculus includes creating, sending, receiving, and processing secure messages based on the scenario's requirements. The cryptographic primitives and operations such as `new`, `output`, `input`, `project`, `apply`, and `commit` ensure that the protocol interactions are secured and follow the principles of confidentiality and integrity. The `replicate` operation is used to model repeated actions like multiple witness testimonies or multiple rounds in the court deliberation phase.
 
-Each section of the protocol translates your trial phases into secure operations that are executed within the controlled environment defined by the spi calculus, allowing you to maintain the privacy and authenticity of all participants and information involved in the judicial process.
+Each section of the protocol translates the trial phases into secure operations that are executed within the controlled environment defined by the SPI calculus, to maintain the privacy and authenticity of all participants and information involved in the judicial process.
 
-The given cryptographic trial protocol into a more standard SPI calculus setup, we can structure the equations to clearly reflect the creation of channels, transmission of messages, and interaction between different agents in the protocol. Here's a refined set using standard SPI calculus notation, organized to better align with typical protocol representations:
+The given cryptographic trial protocol with SPI calculus , we  structure the equations to  reflect the creation of channels, transmission of messages, and interaction between different agents in the protocol. Standard SPI calculus notation, organized as protocol representations:
 
 #### Standard SPI Calculus Protocol Representation
 
