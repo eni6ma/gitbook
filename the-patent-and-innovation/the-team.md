@@ -26,7 +26,7 @@ Jeff Shaw : Y Combinator; Underground Cellar
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
-David Berger : Harvard; Integra Blockchain
+David Berger : Harvard; Integra Ledger
 
 Dr. Matthew Richter; Stanford University - Quantum Physics
 
