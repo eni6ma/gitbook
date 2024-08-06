@@ -36,6 +36,8 @@ Salim Masmoudi : Université Savoie Mont Blanc; MS - Computer Science
 
 Steven Echtman : University Buffalo; AiIfy.io
 
+Dwayne Reddick : Technologist; Soundmind Fellowship&#x20;
+
 Julian Rocha : Berkeley; Nurrl; Artificial Intelligence Alignment
 
 \
