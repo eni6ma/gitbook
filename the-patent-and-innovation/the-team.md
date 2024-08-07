@@ -40,6 +40,8 @@ Dwayne Reddick : Technologist; Soundmind Fellowship&#x20;
 
 Julian Rocha : Berkeley; Nurrl; Artificial Intelligence Alignment
 
+Livia Panez- University Science Applied, Liquidity Pool
+
 \
 \
 
