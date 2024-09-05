@@ -1,9 +1,9 @@
 ---
 icon: '1'
 description: >-
-  The future supersystems we build must remain under human control at the risk
-  of National Security. In the case of a Rogue Ai actor, compliant Ai systems
-  must have a protocol to defend humanity & life.
+  The future super Ais we build,  must remain under human control at the risk of
+  National Security. In the case of a Rogue Ai actor, compliant Ai systems must
+  have a protocol to defend humanity & life.
 ---
 
 # 🤖 (IFF) Ai Defense Protocol
