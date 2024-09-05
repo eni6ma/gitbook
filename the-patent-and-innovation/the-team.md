@@ -22,7 +22,7 @@ Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
 
-Jeff Shaw : Y Combinator; Underground Cellar
+Greg Jones : Google X, Wharton Biz School
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
@@ -41,6 +41,8 @@ Dwayne Reddick : Technologist; Soundmind Fellowship&#x20;
 Julian Rocha : Berkeley; Nurrl; Artificial Intelligence Alignment
 
 Livia Panez- University Science Applied, Liquidity Pool
+
+Aaron Bisla : University Washington; Santa Clara law&#x20;
 
 \
 \
