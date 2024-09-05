@@ -25,6 +25,8 @@ description: >-
 
 These design and system patterns are foundational in building secure, efficient, and user-friendly digital systems, particularly in environments where data integrity and security are paramount.
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.13.30 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Authentication
 
 Authentication is the process of verifying the identity of a user, device, or entity before granting access to a system or resource. It often involves validating credentials such as passwords, digital certificates, or biometric data against a known record. In cryptography and security, authentication ensures that an entity is who it claims to be, preventing unauthorized access and enabling secure communication.
@@ -87,6 +89,8 @@ Permissions are settings that determine the level of access a user, group, or pr
 
 4\. Outcome: The system either allows the operation if the permissions match or denies it if they do not.
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.14.24 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Authority and Rights
 
 Authority refers to the power or right given to users or processes to perform certain actions within a system, like issuing commands or modifying data. Rights are the specific privileges or permissions granted to users or processes. Both concepts are crucial in defining roles and responsibilities within an organization's IT environment.
@@ -116,6 +120,8 @@ In the digital realm, a voting ballot refers to an electronic method used to cas
 4\. Submission: The encrypted vote is submitted to the server.
 
 5\. Outcome: The server stores the encrypted vote securely until the end of the voting period, ensuring confidentiality and integrity.
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.16.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Certification
 
@@ -230,6 +236,8 @@ Provenance in information systems refers to the chronology of the ownership, cus
 
 5\. Decision Making: Decision-makers use the verified provenance to make informed decisions based on the authentic and unaltered history of the data.
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.17.24 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Non-Repudiation
 
 Non-repudiation in cybersecurity and digital communications ensures that a party in a transaction cannot deny the authenticity of their signature on a message or the sending party of a message that it originated from. This is crucial for legal, business, and security contexts where it is important to prove that a specific action occurred and that the party involved cannot dispute their participation. Non-repudiation is often implemented using cryptographic techniques like digital signatures, where the signing party’s private key generates a signature that can be independently verified by anyone with access to the public key.
@@ -293,3 +301,6 @@ Irrefutable evidence in the context of digital systems refers to data or informa
 5\. Legal and Compliance Use: The data can be presented as evidence in legal or compliance matters, with assurances that it hasn’t been altered since the time of capture.
 
 \
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.20.31 PM.png" alt=""><figcaption></figcaption></figure>
