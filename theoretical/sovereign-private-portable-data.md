@@ -4,6 +4,8 @@ description: 'Fundamental Human Right: Privacy and Data Sovereignty'
 
 # Sovereign Private Portable Data
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-05 at 12.56.00 PM.png" alt=""><figcaption></figcaption></figure>
+
 The **Private Portable Credentials (PPC)** technology, spearheaded by the **ENI6MA Cypher**, represents a groundbreaking leap in digital identity management. At its core, PPC offers a robust alternative to traditional Multi-Factor Authentication (MFA) methods, which have become increasingly vulnerable to a wide range of cyber threats. MFA, with its reliance on supplementary verification methods such as SMS codes and email-based links, has introduced complexity without offering substantial improvements in security. The flaws of MFA—easily exploitable through phishing, smishing, and adversary-in-the-middle attacks—underscore the need for a more resilient and secure authentication framework, one that PPC delivers.
 
 PPC fundamentally transforms digital identity verification by utilizing **cybernetic cryptography**, a system designed to ensure both privacy and security. Unlike MFA, which often relies on centralized systems susceptible to attack, PPC decentralizes the process, allowing users to control their private credentials securely. The innovation lies in PPC’s ability to incorporate **Zero-Knowledge Proof (ZKP)** technology, enabling verification of user credentials without exposing any sensitive information during the process. This means that even if communications were intercepted, no critical data would be vulnerable to attackers. Such an approach not only enhances security but also aligns with growing concerns about privacy in an increasingly interconnected digital world.
