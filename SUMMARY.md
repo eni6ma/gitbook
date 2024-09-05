@@ -48,6 +48,7 @@
 * [National Security: Part 1](national-security/national-security-part-1.md)
 * [National Security: Part 2](national-security/national-security-part-2.md)
 * [National Security: Part 3](national-security/national-security-part-3.md)
+* [Secure Ai Framework](national-security/secure-ai-framework.md)
 
 ## EXAMPLE/DEMO
 
