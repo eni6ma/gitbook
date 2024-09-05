@@ -27,6 +27,7 @@
 * [Fundamental of Security](theoretical/fundamental-of-security.md)
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
 * [Gödel's Incompleteness Of ZKPs](theoretical/godels-incompleteness-of-zkps.md)
+* [SuperIntelligence : Asimov Engine](theoretical/superintelligence-asimov-engine.md)
 
 ## TECHNICAL SPECS
 
@@ -49,7 +50,6 @@
 
 ## EXAMPLE/DEMO
 
-* [SuperIntelligence : Asimov Engine](example-demo/superintelligence-asimov-engine.md)
 * [Use Cases](example-demo/use-cases.md)
 * [Examples](example-demo/examples/README.md)
   * [VIDEO](example-demo/examples/video.md)
