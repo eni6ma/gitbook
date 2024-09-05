@@ -28,6 +28,7 @@
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
 * [Gödel's Incompleteness Of ZKPs](theoretical/godels-incompleteness-of-zkps.md)
 * [SuperIntelligence : Asimov Engine](theoretical/superintelligence-asimov-engine.md)
+* [Private Portable Credentials](theoretical/private-portable-credentials.md)
 
 ## TECHNICAL SPECS
 
