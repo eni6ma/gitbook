@@ -75,11 +75,11 @@ $$
 
 Where:
 
-* $S$ = Security Level
-* $E$ = Encryption Strength
-* $H$ = Entropy
-* $Q$ = Quantum Resistance
-* $C$ = Human Control
+* $$S$$ = Security Level
+* $$E$$ = Encryption Strength
+* $$H$$ = Entropy
+* $$Q$$ = Quantum Resistance
+* $$C$$ = Human Control
 
 #### 2. **Encryption Strength (E)**
 
@@ -91,7 +91,7 @@ $$
 
 Where:
 
-* $k\_1$ = Proportionality constant reflecting the efficiency of entropy and quantum resistance in enhancing encryption strength.
+* $$k_1$$ = Proportionality constant reflecting the efficiency of entropy and quantum resistance in enhancing encryption strength.
 
 #### 3. **Entropy (H)**
 
@@ -103,8 +103,8 @@ $$
 
 Where:
 
-* $p\_i$ = Probability of the $i^{\text{th\}}$ entropy source.
-* $n$ = Number of possible entropy sources.
+* $$p_i$$ = Probability of the $i^{\text{th\}}$ entropy source.
+* $$n$$ = Number of possible entropy sources.
 
 #### 4. **Quantum Resistance (Q)**
 
@@ -116,8 +116,8 @@ $$
 
 Where:
 
-* $a$ = Sensitivity factor representing the impact of quantum-resistant algorithms.
-* $A$ = Strength and implementation level of quantum-resistant algorithms.
+* $$a$$ = Sensitivity factor representing the impact of quantum-resistant algorithms.
+* $$A$$ = Strength and implementation level of quantum-resistant algorithms.
 
 #### 5. **Human Control (C)**
 
@@ -129,11 +129,11 @@ $$
 
 Where:
 
-* $k\_2$ = Proportionality constant reflecting the effectiveness of human cognitive integration.
-* $H\_{\text{brain\}}$ = Entropy contributed by human cognitive processes.
-* $P\_{\text{control\}}$ = Level of human oversight and control mechanisms implemented.
+* $$k_2$$ = Proportionality constant reflecting the effectiveness of human cognitive integration.
+* $$H_{\text{brain}}$$ = Entropy contributed by human cognitive processes.
+* $$P_{\text{control}}$$ = Level of human oversight and control mechanisms implemented.
 
-#### 6. **Probability of Successful Attack ($P\_{\text{attack\}}$)**
+#### 6. **Probability of Successful Attack** &#x20;
 
 The probability of a successful attack on the AI communication system is inversely related to the security level. As the security level increases, the likelihood of an attack succeeding decreases.
 
@@ -151,8 +151,8 @@ $$
 
 Where:
 
-* $D$ = Dimensionality Factor
-* $I$ = Indeterminacy introduced during dimensional collapse
+* $$D$$ = Dimensionality Factor
+* $$I$$ = Indeterminacy introduced during dimensional collapse
 
 #### 8. **Dimensionality Factor (D)**
 
@@ -164,8 +164,8 @@ $$
 
 Where:
 
-* $d\_{\text{original\}}$ = Original dimensionality of the data
-* $d\_{\text{projected\}}$ = Projected dimensionality of the data
+* $$d_{\text{original}}$$ = Original dimensionality of the data
+* $$d_{\text{projected}}$$ = Projected dimensionality of the data
 
 #### 9. **Indeterminacy (I)**
 
@@ -177,17 +177,17 @@ $$
 
 Where:
 
-* $k\_3$ = Proportionality constant reflecting the impact of entropy and quantum resistance on indeterminacy.
+* $$k_3$$ = Proportionality constant reflecting the impact of entropy and quantum resistance on indeterminacy.
 
 #### 10. **Overall Security Equation**
 
-Combining the above formulations, the overall security level $S$ can be expressed as:
+Combining the above formulations, the overall security level $$S$$ can be expressed as:
 
 $$
 S = k_1 \times H \times Q \times k_2 \times (H_{\text{brain}} + P_{\text{control}})
 $$
 
-Substituting $S$ into the probability of attack equation:
+Substituting $$S$$ into the probability of attack equation:
 
 $$
 P_{\text{attack}} = \frac{1}{k_1 \times H \times Q \times k_2 \times (H_{\text{brain}} + P_{\text{control}})}
