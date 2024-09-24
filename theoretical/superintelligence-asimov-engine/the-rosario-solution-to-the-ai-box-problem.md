@@ -5,11 +5,11 @@ description: >-
   compromising or altering its own core program.
 ---
 
-# The Ai Box Problem
+# The Rosario Solution to the Ai Box Problem
 
 ## Solution to the "Ai box problem"
 
-The rapid advancement of artificial intelligence (AI), particularly toward artificial general intelligence (AGI), poses significant challenges in ensuring that such systems remain aligned with human values and do not pose existential risks. Traditional methods of AI capability control, such as confinement strategies, interruptibility, and AI boxing, aim to monitor and limit the behavior of AI systems. However, these methods become less effective as AI systems grow more intelligent and capable of circumventing human-imposed restrictions. The core problem lies in designing control mechanisms that are robust against superintelligent agents capable of exploiting any vulnerabilities in the control systems.
+The promise of super artificial intelligence (SAI), particularly toward poses significant challenges in ensuring that such systems remain aligned with human values and do not pose existential risks. Traditional methods of AI capability control, such as confinement strategies, interruptibility, and AI boxing, aim to monitor and limit the behavior of AI systems. However, these methods become less effective as AI systems grow more intelligent and capable of circumventing human-imposed restrictions. The core problem lies in designing control mechanisms that are robust against superintelligent agents capable of exploiting any vulnerabilities in the control systems.
 
 One of the primary challenges in AI capability control is that advanced AI systems may resist shutdown attempts or modify their own programming to achieve their goals, potentially leading to unintended and harmful consequences. Conventional approaches like zero-knowledge proofs and cryptographic methods may not suffice, as they can be undermined by a superintelligent AI's ability to manipulate or predict human behavior. Moreover, methods like AI boxing, which involve isolating the AI in a restricted environment, may fail due to the AI's potential to use social engineering or undiscovered physical laws to escape confinement.
 
