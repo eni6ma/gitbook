@@ -28,8 +28,8 @@
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
 * [Gödel's Incompleteness Of ZKPs](theoretical/godels-incompleteness-of-zkps.md)
 * [SuperIntelligence : Asimov Engine](theoretical/superintelligence-asimov-engine/README.md)
-  * [The Ai Box Problem](theoretical/superintelligence-asimov-engine/the-ai-box-problem.md)
   * [Ai Box Problem explained](theoretical/superintelligence-asimov-engine/ai-box-problem-explained.md)
+  * [The Rosario Solution to the Ai Box Problem](theoretical/superintelligence-asimov-engine/the-rosario-solution-to-the-ai-box-problem.md)
 * [Sovereign Private Portable Data](theoretical/sovereign-private-portable-data.md)
 
 ## TECHNICAL SPECS
