@@ -27,7 +27,8 @@
 * [Fundamental of Security](theoretical/fundamental-of-security.md)
 * [Cryptographic Security Patterns](theoretical/cryptographic-security-patterns.md)
 * [Gödel's Incompleteness Of ZKPs](theoretical/godels-incompleteness-of-zkps.md)
-* [SuperIntelligence : Asimov Engine](theoretical/superintelligence-asimov-engine.md)
+* [SuperIntelligence : Asimov Engine](theoretical/superintelligence-asimov-engine/README.md)
+  * [The Ai Box Problem](theoretical/superintelligence-asimov-engine/the-ai-box-problem.md)
 * [Sovereign Private Portable Data](theoretical/sovereign-private-portable-data.md)
 
 ## TECHNICAL SPECS
