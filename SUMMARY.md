@@ -15,6 +15,7 @@
 * [The Team](the-patent-and-innovation/the-team.md)
 * [The Rosario-Wang Primitive](the-patent-and-innovation/the-rosario-wang-primitive.md)
 * [The Rosario-Wang Proof](the-patent-and-innovation/the-rosario-wang-proof.md)
+* [White Paper : Accumulation of Memberships](the-patent-and-innovation/white-paper-accumulation-of-memberships.md)
 * [Verification Protocol](the-patent-and-innovation/verification-protocol.md)
 
 ## Theoretical
