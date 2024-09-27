@@ -21,7 +21,7 @@ The study explores the core algorithms that underpin cryptographic accumulators,
 
 The theoretical advancements presented not only bolster the resilience of accumulator schemes but also pave the way for innovative applications that demand scalable and secure verification mechanisms. By leveraging the holographic principle and hidden morphisms, cryptographic accumulators achieve a high degree of compactness and privacy, making them indispensable tools for safeguarding data integrity and confidentiality across diverse digital ecosystems. As technology continues to evolve, the role of cryptographic accumulators is poised to expand, addressing emerging challenges in data security and privacy with enhanced efficiency and robustness.
 
-In conclusion, this paper establishes a comprehensive framework for cryptographic accumulators of membership proofs by seamlessly integrating the holographic principle of dimensional collapse with hidden morphisms between witness alphabets. These theoretical enhancements ensure that accumulators remain at the forefront of cryptographic research and application, providing secure, efficient, and scalable solutions for modern data verification needs.
+The theory behind the Rosario-Wang proof described in this paper establishes a comprehensive framework for cryptographic accumulators of membership proofs by seamlessly integrating the holographic principle of dimensional collapse with hidden morphisms between witness alphabets. These theoretical enhancements ensure that accumulators remain at the forefront of cryptographic research and application, providing secure, efficient, and scalable solutions for modern data verification needs.
 
 ***
 
@@ -45,7 +45,7 @@ The integration of the Rosario-Wang Cypher Proof through the holographic princip
 
 ### **2. Core Algorithms of Accumulators**
 
-At the heart of a cryptographic accumulator lies a suite of algorithms designed to manage and verify membership efficiently. The fundamental components of an accumulator scheme are typically encapsulated in a tuple of algorithms: Key Generation (Gen), Evaluation (Eval), Witness Creation (WitCreate), Proof Computation (CompProof), and Verification (Verify).
+At the base of a cryptographic accumulator lies a suite of algorithms designed to manage and verify membership efficiently. The fundamental components of an accumulator scheme are typically encapsulated in a tuple of algorithms: Key Generation (Gen), Evaluation (Eval), Witness Creation (WitCreate), Proof Computation (CompProof), and Verification (Verify).
 
 **2.1 Key Generation** $$(\text{Gen})$$
 
