@@ -437,5 +437,6 @@ The techniques employed in the Rosario-Wang proof open new avenues for research 
 18. Berry Schoenmakers. Some efficient zeroknowledge proof techniques. Slides presented at the International Workshop on Cryptographic Protocols, March 2001. Monte Verita, Switzerland.
 19. Berry Schoenmakers. Interval proofs revisited. Slides presented at the International Workshop on Frontiers in Electronic Elections, September 2005. Milan, Italy.
 20. Isamu Teranishi and Kazue Sako. K-times anonymous authentication with a constant proving cost. In Moti Yung, Yevgeniy Dodis, Aggelos Kiayias, and Tal Malkin, editors, Public Key Cryptography, volume 3958 of Lecture Notes in Computer Science, pages 525-542. Springer, 2006.
-21. Jan Camenisch , Rafik Chaabouni, and Abhi Shelat ;
-2008; Efficient Protocols for Set Membership and Range Proofs; IBM Research U. of Virginia
+21. Camenisch, J., Chaabouni, R., & Shelat, A. (2008, December). Efficient protocols for set membership and range proofs. In International Conference on the Theory and Application of Cryptology and Information Security (pp. 234–252). Berlin, Heidelberg: Springer Berlin Heidelberg.
+22. Buchanan, William J (2024). Set Membership and Range Proofs in Golang (CSS08). Asecuritysite.com. https://asecuritysite.com/golang/go_bullet2
+23.  https://github.com/0xdecaf/zkrp
