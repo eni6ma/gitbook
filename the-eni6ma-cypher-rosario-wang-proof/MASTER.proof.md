@@ -203,7 +203,7 @@ The protocol involves the following steps:
 
 ---
 
-**Rosario-Wang Variant: Zero-Knowledge Proof of Set Membership Using Entropy-Bounded Random Distribution and Holographic Dimensional Reduction**
+## **Rosario-Wang Variant: Zero-Knowledge Proof of Set Membership Using Entropy-Bounded Random Distribution and Holographic Dimensional Reduction**
 
 **Introduction to the Novel Approach**
 
