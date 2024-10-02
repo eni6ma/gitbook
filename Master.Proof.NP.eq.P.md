@@ -9,7 +9,7 @@
 
 #### Abstract
 
-**Abstract**
+
 
 The $P$ versus $NP$ problem is a fundamental question in computational complexity theory, asking whether every problem whose solution can be verified quickly (in polynomial time) by a deterministic Turing machine can also be solved quickly by such a machine. This paper proposes a theoretical framework and introduces the NP-Time Gestalt Algorithm to address this problem by leveraging concepts from human cognition, specifically **dimensional collapse** and **Gestalt perception**.
 
