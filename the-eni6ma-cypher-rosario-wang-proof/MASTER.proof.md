@@ -293,7 +293,7 @@ $P_\sigma = \text{Enc}(\sigma) \in \mathbb{P}^n$, where $\text{Enc}$ encodes $\s
 $Q_\sigma = H(P_\sigma) \in \mathbb{P}^m$.
         - **Randomness Incorporation**:
 
-Alice selects random $r_i \in \mathbb{F}_q^m$.
+Alice selects the appropriate witness $r_i \in \mathbb{F}_q^m$.
         - **Witness Computation**:
 
 $w_i = Q_\sigma + r_i$.
