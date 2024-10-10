@@ -1120,25 +1120,25 @@ To understand the threshold at which computational demands would exhaust the uni
 
 #### 1. Landauer’s Principle and Energy Constraints
 
-Landauer’s Principle states that erasing one bit of information requires a minimum energy of kBTln⁡(2), where kB is Boltzmann's constant and T is the temperature. At room temperature, this is roughly 310−21 joules per bit.
+Landauer’s Principle states that erasing one bit of information requires a minimum energy of kBTln⁡(2), where kB is Boltzmann's constant and T is the temperature. At room temperature, this is roughly $$3 * 10^{-21}$$ joules per bit.
 
-For the entire observable universe, if we assume its energy availability is on the order of 1069 joules, this sets a theoretical maximum limit of around 1090 bit operations. However, this would only cover basic logical operations without considering complex algorithms with high computational complexity.
+For the entire observable universe, if we assume its energy availability is on the order of $$10^{69}$$ joules, this sets a theoretical maximum limit of around $$10^{90}$$ bit operations. However, this would only cover basic logical operations without considering complex algorithms with high computational complexity.
 
 #### 2. Bekenstein Bound and Information Storage Capacity
 
-The Bekenstein Bound gives an upper limit on the amount of information that can be contained within a finite region of space with finite energy. For a sphere with the universe’s radius (roughly 4.41026 meters), the Bekenstein Bound is about 10120 bits. This storage capacity represents the maximum information that could theoretically be manipulated or stored across the universe.
+The Bekenstein Bound gives an upper limit on the amount of information that can be contained within a finite region of space with finite energy. For a sphere with the universe’s radius (roughly $$4.4 * 10^{26}$$ meters), the Bekenstein Bound is about $$10^{120}$$  bits. This storage capacity represents the maximum information that could theoretically be manipulated or stored across the universe.
 
 #### 3. Problem Complexity and Minimum Intractable Size
 
-Exponential and Super-Exponential Complexity: Problems with exponential complexity, such as O(2n), become intractable for large n even with vast resources. The actual threshold where the universe’s computational capacity is exhausted likely lies between 1050 and 10120 operations, depending on whether classical or quantum resources are used.
+Exponential and Super-Exponential Complexity: Problems with exponential complexity, such as O(2n), become intractable for large n even with vast resources. The actual threshold where the universe’s computational capacity is exhausted likely lies between $$10^{80}$$ and $$10^{120}$$ operations, depending on whether classical or quantum resources are used.
 
 Tower of Exponentials and Non-Elementary Growth: For problems with complexity such as O(22n) or non-elementary growth (where the growth rate exceeds any fixed tower of exponentials), the input size n required to reach the universe’s capacity is likely smaller. For example, solving a problem in O(22100) would require far more operations than are computationally feasible within the physical constraints of the universe.
 
 ### Minimum Complexity Threshold for Universe-Exhausting Computation
 
-Threshold Complexity Class: Problems in the double-exponential class (O(22n)) or non-elementary recursive functions quickly surpass the universe’s computational limits. Approximate Minimum Size: For a problem to exceed the universe’s computational capacity, it would need to involve roughly 1090 to 10120 operations, corresponding to exponential complexities with inputs around n=300 to n=500 for O(2n) complexity, or smaller input sizes for double-exponential growth like O(22n).
+Threshold Complexity Class: Problems in the double-exponential class (O(22n)) or non-elementary recursive functions quickly surpass the universe’s computational limits. Approximate Minimum Size: For a problem to exceed the universe’s computational capacity, it would need to involve roughly $$10^{90}$$ to $$10^{120}$$ operations, corresponding to exponential complexities with inputs around n=300 to n=500 for O(2n) complexity, or smaller input sizes for double-exponential growth like O(22n).
 
-In summary, the minimum problem size that exceeds the universe’s computational capacity lies within complexity classes with super-exponential growth, such as double-exponential functions (O(22n)) and non-elementary functions, with operations in the range of 1090 to 10120, depending on the specific computational resources and energy constraints.
+The minimum problem size that exceeds the universe’s computational capacity lies within complexity classes with super-exponential growth, such as double-exponential functions (O(22n)) and non-elementary functions, with operations in the range of $$10^{90}$$  to $$10^{120}$$ , depending on the specific computational resources and energy constraints.
 
 ***
 
