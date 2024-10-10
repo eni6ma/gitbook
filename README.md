@@ -12,7 +12,7 @@ Dylan Rosario (Cybernetics & Cryptography)
 
 ### Abstract
 
-This paper explores the concept of computational intractability and its implications within theoretical and practical domains. Intractable problems, characterized by exponential or super-exponential time complexity, pose a unique challenge to current and future computational capabilities, often exceeding feasible technological and energy limits. We analyze complexity classes such as NP, EXP, and NEXP, illustrating these bounds through real-world applications like cryptography, combinatorial optimization, and biological simulations. Physical limits, including Landauer's Principle and the Bekenstein Bound, are used to illustrate the energy and storage constraints of computation. Even advances in quantum computing encounter fundamental hurdles, particularly for tasks demanding 10^40 or more operations. This study emphasizes that some problems, due to their extreme resource requirements, remain fundamentally unsolvable, marking an intersection between theoretical mathematics, physical laws, and the limits of feasible computation.
+This paper explores the concept of computational intractability and its implications within theoretical and practical domains. Intractable problems, characterized by exponential or super-exponential time complexity, pose a unique challenge to current and future computational capabilities, often exceeding feasible technological and energy limits. We analyze complexity classes such as NP, EXP, and NEXP, illustrating these bounds through real-world applications like cryptography, combinatorial optimization, and biological simulations. Physical limits, including Landauer's Principle and the Bekenstein Bound, are used to illustrate the energy and storage constraints of computation. Even advances in quantum computing encounter fundamental hurdles, particularly for tasks demanding $$10^{40}$$ or more operations. This study emphasizes that some problems, due to their extreme resource requirements, remain fundamentally unsolvable, marking an intersection between theoretical mathematics, physical laws, and the limits of feasible computation.
 
 #### 1. Introduction to Computational Intractability
 
@@ -218,7 +218,7 @@ This principle establishes a minimum amount of energy required to erase one bit 
 
 2. **Bekenstein Bound:**
 
-Proposed by physicist Jacob Bekenstein, the Bekenstein Bound defines the maximum amount of information that can be stored within a given volume of space with a defined amount of energy. For example, the Bekenstein Bound implies that a sphere with the volume and energy equivalent of the observable universe could store a maximum of 10120 bits of information.This bound imposes a strict physical limit on how much data any computational system could theoretically process, as it limits the storage and, by extension, the amount of information that can be manipulated.
+Proposed by physicist Jacob Bekenstein, the Bekenstein Bound defines the maximum amount of information that can be stored within a given volume of space with a defined amount of energy. For example, the Bekenstein Bound implies that a sphere with the volume and energy equivalent of the observable universe could store a maximum of $$10^{120}$$ bits of information.This bound imposes a strict physical limit on how much data any computational system could theoretically process, as it limits the storage and, by extension, the amount of information that can be manipulated.
 
 3. **Speed of Light and Data Transfer:**
 
@@ -226,7 +226,7 @@ The speed of light, approximately 3108 meters per second, imposes a fundamental 
 
 4. **The Planck Scale:**
 
-The Planck scale refers to the smallest measurable length, approximately 1.610−35 meters, at which classical concepts of space and time cease to apply. At this scale, quantum gravitational effects dominate, and any attempt to subdivide space further would require energy equivalent to the mass of a black hole.
+The Planck scale refers to the smallest measurable length, approximately $$1.6 * 10^{-32}$$ meters, at which classical concepts of space and time cease to apply. At this scale, quantum gravitational effects dominate, and any attempt to subdivide space further would require energy equivalent to the mass of a black hole.
 
 This limitation means that computational components, like transistors or qubits, cannot be made indefinitely smaller to increase speed or density, setting a finite boundary on hardware miniaturization and the potential for processing density in computational devices.
 
@@ -388,7 +388,7 @@ The physical limitations on computation extend beyond the capabilities of curren
 
 ### Landauer’s Principle and Energy per Computation
 
-Landauer’s Principle, formulated by physicist Rolf Landauer in 1961, states that erasing information from a system requires a minimum amount of energy. This minimum energy is due to the second law of thermodynamics, as any information-erasing process results in an increase in entropy. The energy required to erase a single bit of information is kBTln⁡(2), where kB is Boltzmann’s constant (1.3810−23 J/K) and T is the absolute temperature in Kelvin.
+Landauer’s Principle, formulated by physicist Rolf Landauer in 1961, states that erasing information from a system requires a minimum amount of energy. This minimum energy is due to the second law of thermodynamics, as any information-erasing process results in an increase in entropy. The energy required to erase a single bit of information is kBTln⁡(2), where kB is Boltzmann’s constant (  $$1.38 * 10^{-23}$$ J/K) and T is the absolute temperature in Kelvin.
 
 Practical Impact: At room temperature (around 300 K), the energy required per bit operation is roughly 3^10−21 joules. While seemingly minuscule, this energy requirement scales rapidly with the amount of data processed. For example, large-scale data centers and supercomputers process trillions of bits every second, leading to significant energy demands.
 
@@ -417,11 +417,11 @@ For a sphere the size of the observable universe (radius around 4.41026 meters) 
 
 As problems move into higher complexity classes, especially EXP, NEXP, and 2-EXP, the time required to compute solutions grows exponentially or even double-exponentially. When scaled up, the time needed to solve these problems quickly exceeds any reasonable time frame, even surpassing the age of the universe.
 
-**Exponential and Super-Exponential Growth:** For an exponential complexity problem requiring 2n operations, each increase in n doubles the required steps. For moderately large n, say n=100, this translates to 2100 steps, or roughly 1030 operations. If a top supercomputer could hypothetically handle 1018 operations per second (1 exaFLOP), it would still take 1012 seconds (about 32,000 years) to complete this calculation.
+**Exponential and Super-Exponential Growth:** For an exponential complexity problem requiring 2n operations, each increase in n doubles the required steps. For moderately large n, say n=100, this translates to 2100 steps, or roughly $$10^{30}$$ operations. If a top supercomputer could hypothetically handle $$10^{18}$$ operations per second (1 exaFLOP), it would still take $$10^{12}$$ seconds (about 32,000 years) to complete this calculation.
 
 **Double-Exponential Constraints:** Double-exponential growth, such as in 2-EXP complexity problems, requires 22n operations, which grows unfathomably fast. For even small inputs, like n=20, the computation would require 10315 operations, a figure so large it dwarfs the number of atoms in the observable universe.
 
-**Realistic Limits for Supercomputing:** Considering that the age of the universe is approximately 13.8109 years, any problem requiring significantly more than 1018 operations quickly become unfeasible within this lifespan. Real-world constraints in high-complexity fields, such as large-scale physics simulations, are thus limited by what can be computed in timeframes relevant to human life or scientific inquiry.
+**Realistic Limits for Supercomputing:** Considering that the age of the universe is approximately $$13.8 * 10^{9}$$ years, any problem requiring significantly more than 1018 operations quickly become unfeasible within this lifespan. Real-world constraints in high-complexity fields, such as large-scale physics simulations, are thus limited by what can be computed in timeframes relevant to human life or scientific inquiry.
 
 ### Quantum Computing: Potential and Limitations
 
@@ -468,25 +468,25 @@ Scaling Up: To reach $$10^{80}$$  operations, we’d need to run one of these su
 
 ### Time Requirements Based on Current Technology
 
-One ExaFLOP Supercomputer: If a single 10^18 FLOPS supercomputer were used, the time required to complete 10^80  operations would be: 10^80 =10^62 seconds
+One ExaFLOP Supercomputer: If a single $$10^{ 18 }$$ FLOPS supercomputer were used, the time required to complete $$10^{80}$$ operations would be:  $$10^{80}$$ = $$10^{62}$$ seconds
 
-Conversion to Years: Converting 10^62 seconds to years: 10^62 seconds  = 3.17^1054 years
+Conversion to Years: Converting  $$10^{62}$$ seconds to years:  $$10^{62}$$ seconds  = $$3.17^{1054}$$ years
 
-This is vastly longer than the current age of the universe, estimated at around 1010  years. Even with massive scaling, this computation would not be achievable within any practical timeframe using current technology.
+This is vastly longer than the current age of the universe, estimated at around $$10^{10}$$ years. Even with massive scaling, this computation would not be achievable within any practical timeframe using current technology.
 
 ### Energy Requirements
 
-Energy per Operation: Assuming highly efficient computing, even at 10−21 joules per operation (near the theoretical minimum energy per bit flip, according to Landauer’s Principle), the energy required would b 10^80 operations 10−21 joules=10^59 joules
+Energy per Operation: Assuming highly efficient computing, even at $$10^{-21}$$ joules per operation (near the theoretical minimum energy per bit flip, according to Landauer’s Principle), the energy required would be  $$10^{80}$$  operations $$10^{-21}$$ joules = $$10^{59}$$ joules
 
-Comparison to Total Energy: The total energy available in the observable universe is estimated to be around 1069 joules. The computation would thus require about 1059 joules, a significant fraction of all energy in the universe and practically impossible to harness or supply.
+Comparison to Total Energy: The total energy available in the observable universe is estimated to be around   $$10^{62}$$  joules. The computation would thus require about $$10^{59}$$   joules, a significant fraction of all energy in the universe and practically impossible to harness or supply.
 
 ### Physical Size of the Computer
 
-Hypothetical Hardware Requirements: To distribute 10^80 operations efficiently, a hypothetical computer would need more processing units than there are atoms in the observable universe (around $$10^{80}$$  atoms). Each processor would also need to perform around one operation per second continuously, which is unrealistic.
+Hypothetical Hardware Requirements: To distribute  $$10^{80}$$  operations efficiently, a hypothetical computer would need more processing units than there are atoms in the observable universe (around $$10^{80}$$  atoms). Each processor would also need to perform around one operation per second continuously, which is unrealistic.
 
 Cooling and Infrastructure: A computer of this magnitude would generate enormous amounts of heat, requiring planetary or even stellar-scale cooling infrastructure.
 
-### Feasibility of Quantum Computing for 10^80 Operations
+### Feasibility of Quantum Computing for  $$10^{80}$$   Operations
 
 Quantum Parallelism: Even with quantum computing’s potential for parallelism, handling $$10^{80}$$  operations would require an astronomical number of qubits, far beyond the capability of any conceivable quantum system.
 
@@ -506,7 +506,7 @@ Decoherence and Error Correction: Quantum systems require error correction to ma
 
 #### LIMITATIONS
 
-A computation requiring 1080 operations are far beyond the reach of any conceivable computational technology, classical or quantum. Such a task would require more time, energy, and physical resources than are available in the observable universe, making it fundamentally infeasible. The sheer scale of these requirements demonstrates the practical and theoretical limits of computation as bound by the universe’s resources.
+A computation requiring  $$10^{80}$$  operations are far beyond the reach of any conceivable computational technology, classical or quantum. Such a task would require more time, energy, and physical resources than are available in the observable universe, making it fundamentally infeasible. The sheer scale of these requirements demonstrates the practical and theoretical limits of computation as bound by the universe’s resources.
 
 ***
 
@@ -671,7 +671,7 @@ To draw parallels with physical scales:
 
 ***
 
-Here is a fundamental high school level educational tool explaining complexity and problem spaces in a table format, it categorizes various computational problem sizes by their complexity and outlines the computational, energy, and physical resources necessary for different types of computers (classical, quantum, and fictional) capable of solving these problems. Energy consumption is equated to the power consumption of typical microwave ovens (1 KW each), and physical compute size estimates grow with complexity.
+Here we pose  a fundamental high school level educational tool explaining complexity and problem spaces in a table format, it categorizes various computational problem sizes by their complexity and outlines the computational, energy, and physical resources necessary for different types of computers (classical, quantum, and fictional) capable of solving these problems. Energy consumption is equated to the power consumption of typical microwave ovens (1 KW each), and physical compute size estimates grow with complexity.
 
 <table data-header-hidden><thead><tr><th width="145"></th><th width="112"></th><th width="100"></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>[0] Compute<br>Power<br>(FLOPS<br>&#x26; Watts)</td><td>[1]<br>Problem Size</td><td>[2]<br>Big-O Notation</td><td>[3]<br>Complexity<br>Class</td><td>[4]<br>Computer<br>Type</td><td>[5]<br>Exponential Capacity<br>(10^n<br>permutations)</td><td>[6]<br>Energy<br>Equivalent<br>(# of<br>Microwave<br>Ovens)</td><td>[7] Physical<br>Matter Needed</td></tr><tr><td>1 TFLOP, 10 TW</td><td>Small Problems</td><td>O(n)</td><td>P (Polynomial)</td><td>Classical</td><td><span class="math">10^{10}</span></td><td>10,000</td><td>Desktop or Small Cluster</td></tr><tr><td>10 PFLOP, 100 TW</td><td>Medium Complexity</td><td>O(nlog⁡n)</td><td>P</td><td>Classical</td><td><span class="math">10^{15}</span></td><td>100,000</td><td>Large Data Center</td></tr><tr><td>100 PFLOP, 1 PW</td><td>Complex Simulations</td><td>O(n2)</td><td>NP</td><td>Classical/Quantum</td><td><span class="math">10e^{20}</span></td><td>1,000,000</td><td>Data Center with Supercomputer</td></tr><tr><td>1 EFLOP, 10 PW</td><td>Very Large Problems</td><td>O(2n)</td><td>EXP</td><td>Classical/Quantum</td><td>  <span class="math">10^{20}</span> </td><td>10,000,000</td><td>Supercomputer Array</td></tr><tr><td>10 EFLOP, 100 PW</td><td>NP-Complete</td><td>O(2n2)</td><td>EXP</td><td>Advanced Quantum</td><td>  <span class="math">10^{30}</span> </td><td>100,000,000</td><td>Large National Supercomputer</td></tr><tr><td>100 EFLOP, 1 EW</td><td>Nondeterministic EXP</td><td>O(22n)</td><td>NEXP</td><td>Quantum/Fictional</td><td>  <span class="math">10^{40}</span> </td><td>1 Billion</td><td>City-Sized Quantum Network</td></tr><tr><td>1 ZFLOP, 10 EW</td><td>Tower of Exponentials</td><td>O(22n)</td><td>2-EXP</td><td>Fictional</td><td>  <span class="math">10^{50}</span> </td><td>10 Billion</td><td>Planet-Sized Quantum Network</td></tr><tr><td>10 ZFLOP, 100 EW</td><td>Non-Elementary</td><td>O(222n)</td><td>Non-elementary Recursive</td><td>Fictional</td><td>  <span class="math">10^{60}</span> </td><td>100 Billion</td><td>Multi-Planetary Compute Network</td></tr><tr><td>100 ZFLOP, 1 ZW</td><td>Non-Computable Range</td><td>O(n!)</td><td>N/A</td><td>Fictional</td><td>  <span class="math">10^{80}</span> </td><td>1 Trillion</td><td>Dyson Sphere around a Star</td></tr></tbody></table>
 
@@ -689,8 +689,7 @@ Table Key:
 
 This table illustrates that while classical and quantum computers can tackle polynomial and some exponential time problems, non-elementary and factorial-level complexities exceed the capacity of any realistic computing system due to the prohibitive physical, energy, and scalability constraints.
 
-1. Integer Factorization (RSA)
-
+* Integer Factorization (RSA)
 * Complexity Class: NP (if solved in P)
 * Big-O Notation: O(2n/2)
 * Permutation Space (10^n): 1040
