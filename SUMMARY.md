@@ -2,7 +2,8 @@
 
 ## The Eni6ma Cypher (Rosario-Wang Proof)
 
-* [Our MoonShot](README.md)
+* [Beyond Feasible Computation](README.md)
+* [Our MoonShot](<README (1).md>)
 * [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)
 * [BigTech's MFA Exploitation](the-eni6ma-cypher-rosario-wang-proof/bigtechs-mfa-exploitation.md)
@@ -41,7 +42,7 @@
   * [COMMITMENT](technical-specs/components/commitment.md)
   * [PRIVATE KEY](technical-specs/components/private-key.md)
   * [PUBLIC KEY](technical-specs/components/public-key.md)
-  * [SECRET MNEMONIC ](technical-specs/components/secret-mnemonic.md)
+  * [SECRET MNEMONIC](technical-specs/components/secret-mnemonic.md)
   * [VERIFIER](technical-specs/components/verifier.md)
 * [INTEGRATIONS](technical-specs/integrations.md)
 
