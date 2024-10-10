@@ -2,7 +2,7 @@
 
 ## The Eni6ma Cypher (Rosario-Wang Proof)
 
-* [Beyond Feasible Computation](README.md)
+* [Beyond Computable Tractability](README.md)
 * [Our MoonShot](<README (1).md>)
 * [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)
