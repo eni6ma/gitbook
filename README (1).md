@@ -120,7 +120,7 @@ The hype around quantum computing is driven in part by companies and researchers
 
 Quantum computing, indeed, represents an exciting frontier, with quantum bits (qubits) allowing certain types of parallelism and entanglement that classical bits cannot achieve. However, the real computational gains are specific to certain types of problems, notably those within specific mathematical domains, like integer factorization and discrete logarithmic problems. Quantum algorithms such as Shor’s and Grover’s are revolutionary but limited in scope, offering exponential or quadratic speed-ups in narrow problem spaces rather than across the board. The complexity classes that define truly intractable problems, like those in the double-exponential class (e.g., O(22n)), remain out of reach even for theoretical quantum systems. So while a quantum computer might indeed accelerate some operations, the idea that it can "solve the impossible" is based more on wishful thinking than technical feasibility.
 
-This exaggeration is often deliberate. Companies and researchers know that "quantum" carries a powerful allure, especially among non-specialists who associate it with futuristic breakthroughs and unlimited potential. The term becomes a tool for marketing and branding, transforming modest advances in specific computational tasks into broader claims of technological revolution. By framing quantum computing as an impending solution to all hard computational problems, companies can attract funding from venture capitalists, government grants, and private investors eager to back the next big thing. In doing so, they gloss over the significant challenges that quantum computing faces, such as decoherence, error correction, and scaling limitations. These limitations mean that even if we could build highly stable and error-free quantum computers, they would still not be capable of brute-forcing problems involving, say, 1080 permutations—a level of complexity reserved for genuinely intractable tasks.
+This exaggeration is often deliberate. Companies and researchers know that "quantum" carries a powerful allure, especially among non-specialists who associate it with futuristic breakthroughs and unlimited potential. The term becomes a tool for marketing and branding, transforming modest advances in specific computational tasks into broader claims of technological revolution. By framing quantum computing as an impending solution to all hard computational problems, companies can attract funding from venture capitalists, government grants, and private investors eager to back the next big thing. In doing so, they gloss over the significant challenges that quantum computing faces, such as decoherence, error correction, and scaling limitations. These limitations mean that even if we could build highly stable and error-free quantum computers, they would still not be capable of brute-forcing problems involving, say, $$10^{80}$$ permutations—a level of complexity reserved for genuinely intractable tasks.
 
 Moreover, researchers are incentivized to embellish quantum computing’s potential for personal gain. Quantum computing is a competitive research field, where funding and recognition are tightly linked to promising breakthroughs. Researchers who can demonstrate or even hint at a connection between their work and the solution of complex, high-profile problems—like cracking cryptographic protocols or optimizing massive logistics networks—gain significant attention. This creates a landscape where researchers may emphasize the "potential" of quantum methods over their realistic applications, portraying themselves as pioneers of a field that can supposedly outsmart fundamental mathematical constraints.
 
@@ -160,7 +160,7 @@ Even with advancements, quantum computers face fundamental scaling challenges du
 
 ### Intractability and Exponential Complexity in Cryptography
 
-Some cryptographic protocols are built on intractable problems with exponential complexity, such as those with complexity levels reaching 1080 possible permutations or beyond. Quantum computers, as powerful as they might become, cannot realistically process an exponentially large number of states due to physical and computational limits. For instance, any brute-force attack requiring 1080 computation is effectively impossible, even with quantum parallelism, as it would exceed the number of atoms in the observable universe.
+Some cryptographic protocols are built on intractable problems with exponential complexity, such as those with complexity levels reaching $$10^{80}$$ possible permutations or beyond. Quantum computers, as powerful as they might become, cannot realistically process an exponentially large number of states due to physical and computational limits. For instance, any brute-force attack requiring 1080 computation is effectively impossible, even with quantum parallelism, as it would exceed the number of atoms in the observable universe.
 
 This inherent intractability suggests that while quantum computers may necessitate shifts in cryptographic strategies, they are not an all-encompassing threat to cryptography. Protocols designed with exponential intractability in mind (for example, cryptographic hashing functions and high-dimensional lattice problems) are structured to withstand attacks from both classical and quantum computers.
 
@@ -326,9 +326,9 @@ Definition: Class EXP includes problems solvable in exponential time, where the 
 
 Examples: Algorithms for exact solutions to the traveling salesman problem using brute force, certain combinatorial optimizations, and some exact quantum simulations are examples of problems in EXP. While small instances might be solvable, scaling up becomes infeasible very quickly.
 
-Implications for Real-World Problems: Exponential-time problems often appear in scientific simulations, logistics, and combinatorial problems, where each additional variable or constraint increases the solution space exponentially. In cryptography, understanding exponential growth is critical for setting key lengths that remain infeasible to break by brute force within a reasonable timeframe.
+**Implications for Real-World Problems:** Exponential-time problems often appear in scientific simulations, logistics, and combinatorial problems, where each additional variable or constraint increases the solution space exponentially. In cryptography, understanding exponential growth is critical for setting key lengths that remain infeasible to break by brute force within a reasonable timeframe.
 
-Physical Constraints: Exponential growth in required resources means that, even for modestly sized inputs, solving these problems might require computational resources beyond the capabilities of current technology. For example, simulating quantum systems of more than a few hundred particles with full accuracy is practically impossible due to the exponential scaling of required resources.
+**Physical Constraints:** Exponential growth in required resources means that, even for modestly sized inputs, solving these problems might require computational resources beyond the capabilities of current technology. For example, simulating quantum systems of more than a few hundred particles with full accuracy is practically impossible due to the exponential scaling of required resources.
 
 ### Class NEXP: Non-deterministic Exponential Time
 
@@ -614,7 +614,7 @@ Complexity Beyond 10^25 Operations
 
 1. **Exceeding Classical Capabilities:**
 
-* Scientific Simulations: These include weather modeling, astrophysical simulations, and molecular dynamics, which often require simulating complex interactions over long periods. These could quickly exceed 1025 operations, especially when aiming for higher resolution or longer simulation times.
+* Scientific Simulations: These include weather modeling, astrophysical simulations, and molecular dynamics, which often require simulating complex interactions over long periods. These could quickly exceed $$10^{20}$$ operations, especially when aiming for higher resolution or longer simulation times.
 * Cryptanalysis: Breaking high-strength encryption, such as RSA with very long keys (e.g., 4096 bits or more), classically requires enormous computational efforts that can surpass   $$10^{25}$$  operations but are still infeasible with current technology.
 
 2. **Quantum Computing Perspective:**
@@ -691,7 +691,8 @@ Table Key:
 
 This table illustrates that while classical and quantum computers can tackle polynomial and some exponential time problems, non-elementary and factorial-level complexities exceed the capacity of any realistic computing system due to the prohibitive physical, energy, and scalability constraints.
 
-* Integer Factorization (RSA)
+### &#x20;Integer Factorization (RSA)
+
 * Complexity Class: NP (if solved in P)
 * Big-O Notation: O(2n/2)
 * Permutation Space (10^n): 1040
@@ -701,7 +702,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Classical supercomputer or large quantum computer (Shor's algorithm)
 * Time Needed to Compute: 1,000+ years on classical, days on quantum (hypothetically)
 
-1. Discrete Logarithm Problem
+### Discrete Logarithm Problem
 
 * Complexity Class: NP
 * Big-O Notation: O(2n/2)
@@ -712,7 +713,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Quantum computer (Shor's algorithm)
 * Time Needed to Compute: 1,000+ years on classical, days on quantum (hypothetically)
 
-1. AES3-256 Symmetric Key Search
+### AES3-256 Symmetric Key Search
 
 * Complexity Class: EXP
 * Big-O Notation: O(2256)
@@ -723,7 +724,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Planetary-scale quantum network
 * Time Needed to Compute: >Universe’s age on classical, centuries+ on quantum
 
-1. Shor’s Algorithm for Factoring
+### Shor’s Algorithm for Factoring
 
 * Complexity Class: BQP
 * Big-O Notation: O((log⁡n)3)
@@ -734,7 +735,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Quantum computer
 * Time Needed to Compute: Hours for large integers (e.g., 1024 bits)
 
-1. Grover’s Algorithm (AES Key Search)
+### Grover’s Algorithm (AES Key Search)
 
 * Complexity Class: BQP
 * Big-O Notation: O(2n/2)
@@ -745,7 +746,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Large-scale quantum computer
 * Time Needed to Compute: \~4 million years on classical, weeks on quantum
 
-1. Riemann Hypothesis
+### Riemann Hypothesis
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -756,7 +757,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. Twin Prime Conjecture
+### Twin Prime Conjecture
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -767,7 +768,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. P vs. NP
+### P vs. NP
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -778,7 +779,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. Navier-Stokes Existence (Millennium Prize Problem)
+### Navier-Stokes Existence (Millennium Prize Problem)
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -789,7 +790,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. Birch and Swinnerton-Dyer Conjecture
+### Birch and Swinnerton-Dyer Conjecture
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -800,7 +801,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. Graph Isomorphism Problem
+### Graph Isomorphism Problem
 
 * Complexity Class: NP (in some cases)
 * Big-O Notation: O(nlog⁡n)
@@ -811,7 +812,7 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Classical or quantum computer
 * Time Needed to Compute: Weeks for large graphs
 
-1. Goldbach Conjecture
+### Goldbach Conjecture
 
 * Complexity Class: Unknown
 * Big-O Notation: Unknown
@@ -822,14 +823,14 @@ This table illustrates that while classical and quantum computers can tackle pol
 * Hardware Requirements: Unknown
 * Time Needed to Compute: Unknown, unsolved
 
-1. 3-SAT (Boolean Satisfiability)
+### 3-SAT (Boolean Satisfiability)
 
 * Complexity Class: NP-complete
 * Big-O Notation: O(2n)
 * Permutation Space (10^n): 1025
 * Tractable?: No
 
-Physical Computability: Intractable for large n
+### Physical Computability: Intractable for large n
 
 * Energy Requirement: Requires power grid of a city
 * Hardware Requirements: Supercomputer or advanced quantum computer
@@ -873,13 +874,13 @@ Computational systems have limited lifespans due to hardware degradation, partic
 
 #### Landauer's Principle and Energy Limits:
 
-Landauer’s Principle states that each bit operation requires a minimum amount of energy due to information entropy, setting a lower bound on the energy needed for computation. Given this principle, the energy required for 10^40 operations would be vast, even under ideal efficiency. In practice, it would be impossible to provide sufficient energy within Earth's constraints without fundamentally altering our energy production methods.
+Landauer’s Principle states that each bit operation requires a minimum amount of energy due to information entropy, setting a lower bound on the energy needed for computation. Given this principle, the energy required for $$10^{40}$$ operations would be vast, even under ideal efficiency. In practice, it would be impossible to provide sufficient energy within Earth's constraints without fundamentally altering our energy production methods.
 
 #### Thermodynamic and Quantum Limits:
 
 Quantum mechanics and thermodynamics impose limits on computation, such as the Bekenstein bound, which limits the amount of information that can be stored in a finite region of space with finite energy. These principles imply that for a problem size like 10^40 operations, even if we could build a computational system of planetary size, it would be incapable of storing and processing the necessary information due to these physical limits.
 
-Problems requiring 10^40 operations or more exceed what is practically or theoretically possible to compute, even with hypothetical advances in technology. Physical limits, including power, material availability, time, and fundamental laws of physics, impose barriers that prevent such computations. The enormity of resources required to reach this computational level, whether in terms of energy, space, or material, makes problems of this magnitude fundamentally intractable. In this range, computational problems surpass what can be accomplished within the bounds of the universe’s resources and lifespan.
+Problems requiring $$10^{40}$$ operations or more exceed what is practically or theoretically possible to compute, even with hypothetical advances in technology. Physical limits, including power, material availability, time, and fundamental laws of physics, impose barriers that prevent such computations. The enormity of resources required to reach this computational level, whether in terms of energy, space, or material, makes problems of this magnitude fundamentally intractable. In this range, computational problems surpass what can be accomplished within the bounds of the universe’s resources and lifespan.
 
 ### INTRACTABLE PROBLEMS
 
@@ -908,7 +909,7 @@ Key:
 
 * Complexity Class: Defines the theoretical difficulty level of the problem based on the type of resources required for a solution.
 * Big-O Notation: Indicates the rate of growth of the computation time or space as a function of the input size n
-* Permutation Space (10^n): An approximation of the number of possible configurations or steps.
+* Permutation Space ( $$10^{n}$$ ): An approximation of the number of possible configurations or steps.
 * Intractable?: If a problem cannot be solved within reasonable time or resources with current technology.
 * Physical Computability: A qualitative measure of the practical feasibility of computing a solution given current technological limits.
 * Energy Requirement: Estimated energy consumption, with some values compared to real-world equivalents for context.
@@ -922,23 +923,7 @@ Tractable Problems
 
 These are tractable problems known to be solvable with current technology or feasible computational methods, along with their properties.
 
-| Problem                                          | Complexity Class | Big-O Notation | Permutation Space (10^n) | Tractable? | Physical Computability      | Energy Requirement                   | Hardware Requirements         | Time Needed to Compute                |
-| ------------------------------------------------ | ---------------- | -------------- | ------------------------ | ---------- | --------------------------- | ------------------------------------ | ----------------------------- | ------------------------------------- |
-| Integer Factorization (Small Numbers)            | P                | O(n1.5)        | 106                      | Yes        | Feasible                    | Low, manageable by typical computers | Classical computer            | Minutes to hours                      |
-| Sorting Algorithms (e.g., Merge Sort)            | P                | O(nlog⁡n)      | 106                      | Yes        | Feasible                    | Low to moderate                      | Classical computer            | Milliseconds to seconds               |
-| Matrix Multiplication                            | P                | O(n3)          | 109                      | Yes        | Feasible                    | Low to moderate                      | Classical computer/GPU        | Seconds to minutes for moderate sizes |
-| Discrete Fourier Transform (DFT)                 | P                | O(nlog⁡n)      | 106                      | Yes        | Feasible                    | Low                                  | Classical computer            | Milliseconds                          |
-| Binary Search                                    | P                | O(log⁡n)       | 103                      | Yes        | Feasible                    | Low                                  | Classical computer            | Microseconds                          |
-| Dijkstra’s Shortest Path Algorithm               | P                | O(n2)          | 106                      | Yes        | Feasible                    | Low to moderate                      | Classical computer            | Seconds for moderate graph sizes      |
-| Primality Testing (AKS Algorithm)                | P                | O((log⁡n)6)    | 109                      | Yes        | Feasible                    | Low to moderate                      | Classical or quantum computer | Seconds for large primes              |
-| Simulating Small Quantum Systems                 | BQP              | O(n3)          | 103                      | Yes        | Feasible on quantum devices | Moderate                             | Quantum computer              | Seconds to hours                      |
-| Image Compression (e.g., JPEG)                   | P                | O(nlog⁡n)      | 105                      | Yes        | Feasible                    | Low                                  | Classical computer            | Milliseconds                          |
-| Public Key Encryption (AES-128)                  | P                | O(n3)          | 1038                     | Yes        | Feasible                    | Moderate to high                     | Classical or quantum computer | Milliseconds to seconds               |
-| Shortest Path in a Small Graph                   | P                | O(n2)          | 106                      | Yes        | Feasible                    | Low                                  | Classical computer            | Milliseconds                          |
-| Pattern Matching in Strings (Knuth-Morris-Pratt) | P                | O(n)           | 105                      | Yes        | Feasible                    | Low                                  | Classical computer            | Microseconds                          |
-| Linear Programming (Simplex)                     | P                | O(n3)          | 106                      | Yes        | Feasible                    | Moderate                             | Classical computer            | Seconds to minutes                    |
-| Fourier Transform (FFT)                          | P                | O(nlog⁡n)      | 106                      | Yes        | Feasible                    | Low to moderate                      | Classical computer/GPU        | Milliseconds                          |
-| Basic Calculations (e.g., Arithmetic)            | P                | O(1)           | 101                      | Yes        | Feasible                    | Very low                             | Any computing device          | Microseconds                          |
+<table data-header-hidden><thead><tr><th width="166"></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Problem</td><td>Complexity Class</td><td>Big-O Notation</td><td>Permutation Space (10^n)</td><td>Tractable?</td><td>Physical Computability</td><td>Energy Requirement</td><td>Hardware Requirements</td><td>Time Needed to Compute</td></tr><tr><td>Integer Factorization (Small Numbers)</td><td>P</td><td>O(n1.5)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low, manageable by typical computers</td><td>Classical computer</td><td>Minutes to hours</td></tr><tr><td>Sorting Algorithms (e.g., Merge Sort)</td><td>P</td><td>O(nlog⁡n)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low to moderate</td><td>Classical computer</td><td>Milliseconds to seconds</td></tr><tr><td>Matrix Multiplication</td><td>P</td><td>O(n3)</td><td>10^9</td><td>Yes</td><td>Feasible</td><td>Low to moderate</td><td>Classical computer/GPU</td><td>Seconds to minutes for moderate sizes</td></tr><tr><td>Discrete Fourier Transform (DFT)</td><td>P</td><td>O(nlog⁡n)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low</td><td>Classical computer</td><td>Milliseconds</td></tr><tr><td>Binary Search</td><td>P</td><td>O(log⁡n)</td><td>10^3</td><td>Yes</td><td>Feasible</td><td>Low</td><td>Classical computer</td><td>Microseconds</td></tr><tr><td>Dijkstra’s Shortest Path Algorithm</td><td>P</td><td>O(n2)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low to moderate</td><td>Classical computer</td><td>Seconds for moderate graph sizes</td></tr><tr><td>Primality Testing (AKS Algorithm)</td><td>P</td><td>O((log⁡n)6)</td><td>10^9</td><td>Yes</td><td>Feasible</td><td>Low to moderate</td><td>Classical or quantum computer</td><td>Seconds for large primes</td></tr><tr><td>Simulating Small Quantum Systems</td><td>BQP</td><td>O(n3)</td><td>10^3</td><td>Yes</td><td>Feasible on quantum devices</td><td>Moderate</td><td>Quantum computer</td><td>Seconds to hours</td></tr><tr><td>Image Compression (e.g., JPEG)</td><td>P</td><td>O(nlog⁡n)</td><td>10^5</td><td>Yes</td><td>Feasible</td><td>Low</td><td>Classical computer</td><td>Milliseconds</td></tr><tr><td>Public Key Encryption (AES-128)</td><td>P</td><td>O(n3)</td><td>10^38</td><td>Yes</td><td>Feasible</td><td>Moderate to high</td><td>Classical or quantum computer</td><td>Milliseconds to seconds</td></tr><tr><td>Shortest Path in a Small Graph</td><td>P</td><td>O(n2)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low</td><td>Classical computer</td><td>Milliseconds</td></tr><tr><td>Pattern Matching in Strings (Knuth-Morris-Pratt)</td><td>P</td><td>O(n)</td><td>10^5</td><td>Yes</td><td>Feasible</td><td>Low</td><td>Classical computer</td><td>Microseconds</td></tr><tr><td>Linear Programming (Simplex)</td><td>P</td><td>O(n3)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Moderate</td><td>Classical computer</td><td>Seconds to minutes</td></tr><tr><td>Fourier Transform (FFT)</td><td>P</td><td>O(nlog⁡n)</td><td>10^6</td><td>Yes</td><td>Feasible</td><td>Low to moderate</td><td>Classical computer/GPU</td><td>Milliseconds</td></tr><tr><td>Basic Calculations (e.g., Arithmetic)</td><td>P</td><td>O(1)</td><td>10^1</td><td>Yes</td><td>Feasible</td><td>Very low</td><td>Any computing device</td><td>Microseconds</td></tr></tbody></table>
 
 \
 
@@ -1152,7 +1137,7 @@ The distinct differences between tractable and intractable problems lie in their
 | ---------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Complexity Class       | Polynomial (P), Bounded Quantum Polynomial (BQP) | Exponential (EXP), Nondeterministic Polynomial (NP), unknown                 |
 | Big-O Notation         | Polynomial O(n),O(nlog⁡n),O(n3)                  | Exponential O(2n),O(2n/2),O(2256), super-polynomial                          |
-| Permutation Space      | Up to 1010                                       | Often 1025 or higher; can exceed 1077                                        |
+| Permutation Space      | Up to 10^10                                      | Often 1025 or higher; can exceed 1077                                        |
 | Physical Computability | Feasible with current technology                 | Mostly infeasible with current or foreseeable technology                     |
 | Energy Requirement     | Low to moderate                                  | High to extraordinary (e.g., entire Earth’s power)                           |
 | Hardware Requirements  | Classical computers, GPUs, small quantum systems | Large quantum computers, supercomputers, theoretical planetary-scale devices |
