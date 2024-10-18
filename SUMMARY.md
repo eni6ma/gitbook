@@ -3,13 +3,13 @@
 ## The Eni6ma Cypher (Rosario-Wang Proof)
 
 * [Our MoonShot](README.md)
-* [Beyond Computable Tractability](<README (1).md>)
 * [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)
 * [BigTech's MFA Exploitation](the-eni6ma-cypher-rosario-wang-proof/bigtechs-mfa-exploitation.md)
 * [Eni6ma vs. MFA/FIDO](the-eni6ma-cypher-rosario-wang-proof/eni6ma-vs.-mfa-fido.md)
 * [Navigating the Convergence](the-eni6ma-cypher-rosario-wang-proof/navigating-the-convergence.md)
 * [Password Brute Force](the-eni6ma-cypher-rosario-wang-proof/password-brute-force.md)
+* [Beyond Computable Tractability](<README (1).md>)
 
 ## The Patent & Innovation
 

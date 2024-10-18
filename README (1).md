@@ -70,7 +70,7 @@ Computational intractability represents the boundary between what is practically
 
 Addressing the concept of intractability in computation involves recognizing the inherent limitations imposed by resource requirements and theoretical bounds. Intractable problems are defined by the exponential or even super-exponential growth in computational steps necessary for a solution as the input size grows. For example, a problem requiring $$.$$$$10^{80}$$ operations—a figure approaching the number of atoms in the observable universe—would demand resources that surpass current or even conceivable future technology, demonstrating the challenge posed by such complexity.
 
-The disparity between tractable and intractable problems is often rooted in their respective complexity classes. Problems solvable in polynomial time, denoted P, represent tasks where the computational effort required scales reasonably with input size. In contrast, intractable problems often reside in classes like NP-hard or EXP, where computational requirements grow exponentially, such as O(2n), or in higher complexities like double-exponential time O(22n). As the input grows, such complexities render even modestly-sized problems unmanageable.
+The disparity between tractable and intractable problems is often rooted in their respective complexity classes. Problems solvable in polynomial time, denoted P, represent tasks where the computational effort required scales reasonably with input size. In contrast, intractable problems often reside in classes like NP-hard or EXP, where computational requirements grow exponentially, such as  $$O(2n)$$, or in higher complexities like double-exponential time  $$O(2^2_n)$$.  As the input grows, such complexities render even modestly-sized problems unmanageable.
 
 The theoretical upper limits of computation can also be framed in physical terms. Landauer’s Principle asserts a minimum energy cost for erasing information, calculated by kBTln⁡(2), where kB is Boltzmann's constant. At room temperature, each bit operation would require roughly $$3 * 10^{-21}$$ joules. When extrapolated to $$10^{80}$$  operations, the energy requirement would approach $$10^{59}$$ joules—a significant portion of the universe's energy. Similarly, the Bekenstein Bound limits the information that can be stored within a finite region of space, setting a ceiling at $$10^{120}$$ bits for the universe, a constraint particularly relevant for computations with vast input spaces.
 
@@ -88,7 +88,7 @@ In contrast, identifying intractable problems is equally crucial, as it allows u
 
 ### Defining Intractability
 
-Intractable problems are generally those that require computational resources—time, memory, or energy—that grow at a rate which renders them unsolvable for all but the smallest instances. Specifically, intractable problems often belong to complexity classes where resource requirements scale exponentially (e.g., O(2n)) or even in double-exponential time (e.g., O(22n)), as input size n increases. Problems in these classes rapidly exceed the practical computational limits available, leading to solutions that would require centuries, millennia, or longer—far beyond the lifetime of any computational system or indeed the universe itself.
+Intractable problems are generally those that require computational resources—time, memory, or energy—that grow at a rate which renders them unsolvable for all but the smallest instances. Specifically, intractable problems often belong to complexity classes where resource requirements scale exponentially (e.g.,  $$O(2n)$$ ) or even in double-exponential time (e.g., $$O(2^2_n)$$ ), as input size n increases. Problems in these classes rapidly exceed the practical computational limits available, leading to solutions that would require centuries, millennia, or longer—far beyond the lifetime of any computational system or indeed the universe itself.
 
 The intractability of a problem can be seen as a measure of its resistance to feasible computation. Problems in the NP-hard or EXP classes, for example, are intractable for classical computers because their solution paths involve exploring a vast, combinatorial number of possibilities. This growth rate is fundamentally distinct from polynomial-time algorithms, which scale more linearly with input size and therefore remain practical for larger instances. By defining and identifying intractability, we recognize the constraints that limit computation and delineate the boundaries where exact solutions must give way to approximations.
 
@@ -112,6 +112,8 @@ In cybersecurity, this misunderstanding could lead to prematurely abandoning sec
 
 From a broader societal perspective, the public’s blind faith in quantum computing’s promises risks perpetuating a misunderstanding of computational limits and the role of mathematics in defining these boundaries. The tendency to regard technology as a solution to all problems erodes an appreciation for mathematical rigor and physical principles, leading to a society that prioritizes hype over scientific literacy. When the public loses sight of the fact that intractable problems are defined by their inherent complexity, not merely by a temporary lack of technology, they are set up for disappointment and, ultimately, disillusionment when quantum computers fail to meet these inflated expectations.
 
+Quantum computers offer a marginal increase in computability over classical binary computing as a result of the qubit vs standard classical bit size.&#x20;
+
 Ultimately, the hype around quantum computing, when taken at face value by the public, feeds into a culture of “technological salvation,” a belief that advanced machines will inevitably conquer all of nature’s mysteries. This belief disregards the reality that some problems are insurmountable, regardless of how advanced technology becomes. By fostering a realistic understanding of quantum computing’s true capabilities—and its fundamental limits—the public can be better prepared to appreciate the advancements that quantum computing will bring without falling prey to the false narrative that it can accomplish the impossible.
 
 ### The Fiction of the Quantum Hype
@@ -127,6 +129,167 @@ Moreover, researchers are incentivized to embellish quantum computing’s potent
 In reality, portraying quantum computing as a solution for all intractable problems is more than just a harmless exaggeration—it’s a distortion of what the technology can actually achieve. Real quantum computing advancements are already being made, and its applications to specialized fields, like material science and specific optimization problems, are legitimate. However, the broader claim that quantum will make all difficult problems easy is a misleading message that overlooks the basic principles of computational complexity and the physical limits of computation itself.
 
 The takeaway? The overhyped claims around quantum computing aren’t just inaccurate; they threaten to overshadow its true potential and risk creating disappointment when the technology ultimately doesn’t meet these inflated expectations. Instead, a realistic appreciation of quantum computing as a transformative but limited tool could enable us to leverage its actual strengths without succumbing to false promises.
+
+### Quantum Qubits and Classical Bits: Implications on Computational Complexity and Brute-Force Iteration
+
+The comparison between classical bits and quantum qubits reveals fundamental differences in information representation and computational potential. While classical bits represent a single state out of $$2^n$$  possibilities, qubits exploit superposition to embody all possible states simultaneously. This capability challenges traditional computational complexity notions and offers new avenues for algorithm design.
+
+Quantum algorithms demonstrate significant improvements in solving certain classes of problems, particularly those that are computationally intensive for classical computers. The implications on brute-force iteration are especially notable, as quantum computing can transform exponential-time problems into polynomial or sub-exponential-time problems, thus rendering previously intractable problems more accessible.
+
+Here we presents a detailed comparison between classical bits and quantum qubits, focusing on their representations, computational capacities, and implications on computational complexity, particularly in the context of brute-force iteration. By exploring the foundational principles and mathematical formulations, we illustrate how quantum computing offers a paradigm shift in tackling computationally intensive problems.
+
+The advent of quantum computing introduces a new computational paradigm that challenges traditional notions of computation based on classical bits. Understanding the distinctions between classical bits and quantum qubits is crucial for appreciating the potential advantages of quantum algorithms, especially for problems deemed intractable by classical means. We describe the theoretical underpinnings of bits and qubits, explore their computational capabilities, and examine the implications on complexity classes and brute-force computation.
+
+## Classical Bits
+
+#### Definition
+
+A **classical bit** is the fundamental unit of information in classical computing systems. It is binary in nature, meaning it can exist in one of two possible states, commonly denoted as $0$ or $1$.
+
+#### Representation
+
+An $n$-bit classical system can represent any one of $2^n$ possible configurations. Each configuration corresponds to a unique combination of bits:
+
+$$
+\text{State} = (b_1, b_2, \dots, b_n), \quad \text{where} \quad b_i \in \{0, 1\}.
+$$
+
+However, at any given moment, the system can only be in one of these $2^n$ states.
+
+#### Computational Capacity
+
+Classical computation manipulates bits through logical operations defined by Boolean algebra. The computational capacity is directly tied to the number of bits and the speed of processing. For exhaustive search algorithms, the time complexity scales exponentially with the number of bits:
+
+$$
+T(n) = O(2^n),
+$$
+
+where $T(n)$ represents the time required to process all possible states for input size $n$.
+
+***
+
+## Quantum Qubits
+
+#### Definition
+
+A **quantum bit**, or **qubit**, is the basic unit of quantum information. Unlike classical bits, qubits exploit quantum mechanical phenomena such as superposition and entanglement, allowing them to exist in multiple states simultaneously.
+
+#### Superposition and Entanglement
+
+A qubit can be represented as a linear combination (superposition) of the basis states $|0\rangle$ and $|1\rangle$:
+
+$$
+|\psi\rangle = \alpha |0\rangle + \beta |1\rangle,
+$$
+
+where $\alpha, \beta \in \mathbb{C}$ are complex probability amplitudes satisfying the normalization condition:
+
+$$
+|\alpha|^2 + |\beta|^2 = 1.
+$$
+
+For a system of $n$ qubits, the state vector resides in a $2^n$-dimensional Hilbert space:
+
+$$
+|\Psi\rangle = \sum_{i=0}^{2^n - 1} c_i |i\rangle,
+$$
+
+where $|i\rangle$ represents the computational basis states (e.g., $|00\ldots0\rangle, |00\ldots1\rangle, \ldots, |11\ldots1\rangle$) and $c\_i$ are complex coefficients with the normalization condition:
+
+$$
+\sum_{i=0}^{2^n - 1} |c_i|^2 = 1.
+$$
+
+**Entanglement** is another key feature where qubits become correlated in such a way that the state of one qubit cannot be described independently of the others.
+
+#### Computational Capacity
+
+The ability of qubits to exist in superposition allows a quantum computer to process a vast amount of information simultaneously. An $n$-qubit register can represent all $2^n$ possible states at once, providing a form of inherent parallelism. However, due to the probabilistic nature of quantum measurement, extracting information requires careful algorithm design to gain computational advantages.
+
+***
+
+### Qu(bit) Complexity Classes
+
+#### Classical Complexity Classes
+
+* **P (Polynomial Time):** The class of decision problems solvable by a deterministic Turing machine within polynomial time $O(n^k)$, where $k$ is a constant.
+* **NP (Nondeterministic Polynomial Time):** The class of decision problems where a given solution can be verified in polynomial time by a deterministic Turing machine.
+* **EXP (Exponential Time):** The class of decision problems solvable in exponential time $O(2^{n^k})$.
+
+These classes illustrate the scaling of computational resources with input size $n$. For example, in **brute-force search**, the time complexity is:
+
+$$
+T_{\text{classical}}(n) = O(2^n).
+$$
+
+#### Quantum Complexity Classes
+
+* **BQP (Bounded-Error Quantum Polynomial Time):** The class of decision problems solvable by a quantum computer in polynomial time with an error probability of at most $\frac{1}{3}$ for all instances.
+
+Formally, a language $L$ is in BQP if there exists a uniform family of quantum circuits ${Q\_n}$ of size polynomial in $n$ such that:
+
+$$
+\begin{cases} \text{If } x \in L, & \Pr[Q_n(x) = 1] \geq \frac{2}{3}, \\ \text{If } x \notin L, & \Pr[Q_n(x) = 1] \leq \frac{1}{3}. \end{cases}
+$$
+
+#### Equations Illustrating Complexity Class Sizes
+
+In classical computation, the number of possible states for an $n$-bit system is:
+
+$$
+N_{\text{classical}} = 2^n.
+$$
+
+For quantum systems, while the number of basis states is the same $2^n$, the superposition principle allows simultaneous consideration of these states. The complexity of certain algorithms can be reduced. For instance, Grover's algorithm searches an unsorted database in:
+
+$$
+T_{\text{quantum}}(n) = O\left(\sqrt{2^n}\right) = O\left(2^{\frac{n}{2}}\right).
+$$
+
+This represents a quadratic speedup over the classical brute-force search.
+
+***
+
+### Implications on Brute-Force Iteration
+
+#### Classical Brute-Force
+
+In classical algorithms, brute-force iteration requires examining each possible configuration individually. For a problem with $N = 2^n$ possible configurations, the time complexity is:
+
+$$
+T_{\text{brute-force}}(n) = O(2^n).
+$$
+
+As $n$ increases, the computational resources required become prohibitive.
+
+#### Quantum Brute-Force
+
+Quantum algorithms can leverage superposition and interference to explore multiple configurations simultaneously. Grover's algorithm, for example, can find a marked item in an unsorted database with high probability in:
+
+$$
+T_{\text{Grover}}(n) = O\left(\sqrt{N}\right) = O\left(2^{\frac{n}{2}}\right).
+$$
+
+This quadratic reduction in time complexity significantly impacts problems where exhaustive search is the only known solution.
+
+#### Speedups from Quantum Computing
+
+Quantum computing offers varying degrees of speedup depending on the problem:
+
+* **Quadratic Speedup:** As seen in Grover's algorithm for unstructured search problems.
+* **Exponential Speedup:** As in Shor's algorithm for integer factorization, which operates in polynomial time:
+
+$$
+T_{\text{Shor}}(n) = O(n^3 \log n \log \log n),
+$$
+
+compared to the best-known classical algorithms with sub-exponential time complexity:
+
+$$
+T_{\text{classical}}(n) = \exp\left[(\log n)^{1/3} (\log \log n)^{2/3}\right].
+$$
+
+These speedups have profound implications for fields like cryptography, where the security of many systems relies on the difficulty of problems like integer factorization.
 
 ### False Narrative : The Quantum Cryptanalysis Reality
 
@@ -216,7 +379,7 @@ These universal constants underscore the inherent limitations on computation bey
 
 1. **Landauer’s Principle:**
 
-This principle establishes a minimum amount of energy required to erase one bit of information, calculated as kBTln⁡(2), where kB is Boltzmann’s constant and T is the temperature in kelvin. At room temperature, each bit flip necessitates roughly 310−21 joules, and this energy cost accumulates significantly in large-scale computations.As computations become larger and more complex, the energy requirement quickly grows beyond what can be supplied by any practical power source, establishing a fundamental energy barrier to computation.
+This principle establishes a minimum amount of energy required to erase one bit of information, calculated as kBTln⁡(2), where kB is Boltzmann’s constant and T is the temperature in kelvin. At room temperature, each bit flip necessitates roughly $$3 * 10^{-21}$$  joules, and this energy cost accumulates significantly in large-scale computations.As computations become larger and more complex, the energy requirement quickly grows beyond what can be supplied by any practical power source, establishing a fundamental energy barrier to computation.
 
 2. **Bekenstein Bound:**
 
@@ -238,7 +401,7 @@ Computational complexity is the study of how the resources required to solve a p
 
 ### Importance of Differentiating Between Tractable and Intractable Problems
 
-The distinction between tractable and intractable problems is foundational in computer science, shaping our understanding of what is computationally feasible. Tractable problems can be solved within a reasonable amount of time and resources, typically by algorithms that grow in complexity polynomially with input size (denoted as O(nk), where k is a constant). These problems are said to belong to the complexity class P and are often considered efficiently solvable.
+The distinction between tractable and intractable problems is foundational in computer science, shaping our understanding of what is computationally feasible. Tractable problems can be solved within a reasonable amount of time and resources, typically by algorithms that grow in complexity polynomially with input size (denoted as $$O(n^k)$$ , where k is a constant). These problems are said to belong to the complexity class P and are often considered efficiently solvable.
 
 In contrast, intractable problems demand resources that grow at exponential or super-exponential rates as the input size increases. For these problems, the number of possible configurations or solutions expands too quickly to be processed in a practical time frame. This rapid growth means that even relatively small instances of intractable problems may require more time or memory than is realistically available, often surpassing the lifespan of the universe or the energy limits of current technology.
 
@@ -268,7 +431,7 @@ Common examples include the Boolean satisfiability problem (SAT) and the traveli
 
 ### Class EXP:  Exponential Time&#x20;
 
-(EXP) includes problems that require exponential time to solve, meaning their complexity scales as O(2n) or higher. Exponential-time problems grow too quickly with input size to be feasible for large instances, as the number of operations doubles with each increment in input.
+(EXP) includes problems that require exponential time to solve, meaning their complexity scales as $$O(2_n)$$  or higher. Exponential-time problems grow too quickly with input size to be feasible for large instances, as the number of operations doubles with each increment in input.
 
 For example, solving the knapsack problem by examining every possible combination of items is an exponential process. Problems in EXP are generally considered intractable due to their rapid growth in complexity, and they often appear in optimization and combinatorial fields.
 
@@ -278,9 +441,9 @@ For example, solving the knapsack problem by examining every possible combinatio
 
 This class is relevant for problems like the quantifier-free theory of real closed fields and games with alternating turns, where the solution space is vast, but the memory required for computation is limited. Problems in PSPACE can sometimes be even more complex than those in NP due to their potentially vast solution space.
 
-### Class NEXPTIME : Non-deterministic Exponential Time&#x20;
+### Class NExpTime : Non-deterministic Exponential Time&#x20;
 
-(NEXPTIME) includes problems solvable by a nondeterministic Turing machine in exponential time. While nondeterminism theoretically allows faster solution searching, the time complexity remains prohibitive. Problems in NEXPTIME are beyond even the NP-complete class in terms of complexity, as their time requirements increase doubly exponentially.
+(NExpTime) includes problems solvable by a nondeterministic Turing machine in exponential time. While nondeterminism theoretically allows faster solution searching, the time complexity remains prohibitive. Problems in NEXPTIME are beyond even the NP-complete class in terms of complexity, as their time requirements increase doubly exponentially.
 
 Succinct circuit satisfiability is a canonical example of an NEXPTIME problem, where the input’s succinct representation adds significant complexity. Problems in NEXPTIME are extremely intractable and are generally not feasible for real-world computation, even with hypothetical or futuristic computational methods.
 
@@ -322,7 +485,7 @@ Physical Constraints: Because no known polynomial-time algorithm exists for NP-c
 
 ### Class EXP: Exponential Time
 
-Definition: Class EXP includes problems solvable in exponential time, where the resources required scale as O(2p(n)) for some polynomial p(n). Exponential-time algorithms require a number of steps that doubles with each increase in input size.
+Definition: Class EXP includes problems solvable in exponential time, where the resources required scale as    $$O(2_p(n))$$   for some polynomial  $$p_n$$. Exponential-time algorithms require a number of steps that doubles with each increase in input size.
 
 Examples: Algorithms for exact solutions to the traveling salesman problem using brute force, certain combinatorial optimizations, and some exact quantum simulations are examples of problems in EXP. While small instances might be solvable, scaling up becomes infeasible very quickly.
 
