@@ -26,9 +26,19 @@ Greg Jones : Google X, Wharton Biz School
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
+Karim Sobati : US Navy Nuclear Programme, TESC, NJ
+
+Dylan Kawalec : Researcher Cybernetics; Block Chain
+
 David Berger : Harvard; Integra Ledger
 
+Cindy Manit : Early-Lyft | San Francisco State University
+
+Avkash (Kash) Chauhan :  GP @ WeTogether Ventures, xMicrosoft, xH2O.ai
+
 Dr. Matthew Richter; Stanford University - Quantum Physics
+
+Dr. Dan Boneh : Stanford University - Director of Cryptography&#x20;
 
 Louis Lau : Stanford University;  PhD Candidate ; Mathematics/Cryptography
 
