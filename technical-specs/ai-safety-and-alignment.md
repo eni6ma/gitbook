@@ -113,8 +113,6 @@ $$
 P_{\text{max}} = \frac{P_0}{1 + \frac{1}{k_s \cdot N^{\alpha} \cdot D^{\beta} \cdot C^{\gamma}}}
 $$
 
-
-
 where:
 
 * ( $$P_{\text{max}}$$ ) is the asymptotic limit of performance.
@@ -140,8 +138,6 @@ where:
 **Interpretation**: Larger models require proportionally more energy, with training duration contributing linearly. This has significant environmental implications as models scale up.
 
 The scaling laws of AI have transformed the field, establishing a path toward more powerful and capable models. By systematically increasing model size, data, and computational resources, researchers have achieved significant breakthroughs in AI capabilities. However, this approach is not without challenges, both technical and ethical. The field faces potential constraints in data and computational power, as well as broader societal concerns. As the pursuit of scaling continues, it will be essential for researchers and policymakers to address these issues, ensuring that the benefits of AI are balanced with responsible stewardship and equitable access. The future of AI may lie not only in the continued scaling of current approaches but also in the exploration of new methodologies that can complement or extend the success of scaling laws.
-
-***
 
 ## 3. **Architectural Design and Iterative Development in AI Models**
 
