@@ -37,6 +37,7 @@
 
 ## TECHNICAL SPECS
 
+* [AI Safety & Alignment](technical-specs/ai-safety-and-alignment.md)
 * [ZERO-TRUST PROTOCOL](technical-specs/protocol.md)
 * [END TO END](technical-specs/end-to-end.md)
 * [COMPONENTS](technical-specs/components/README.md)
