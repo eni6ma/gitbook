@@ -16,7 +16,7 @@ Dr. Lin Wang - Duke University ; Quantum Physics , Signals, & Cryptography; Unit
 
 ***
 
-Eric Johnson - 1st Lt.  OCS US Army ; Defense Communication Systems&#x20;
+\[ advisors, researchers, contributors ]
 
 Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
@@ -32,9 +32,9 @@ Dylan Kawalec : Researcher Cybernetics; Block Chain
 
 David Berger : Harvard; Integra Ledger
 
-Cindy Manit : Early-Lyft | San Francisco State University
-
 Avkash (Kash) Chauhan :  GP @ WeTogether Ventures, xMicrosoft, xH2O.ai
+
+Eric Johnson - 1st Lt.  OCS US Army ; Defense Communication Systems&#x20;
 
 Dr. Matthew Richter; Stanford University - Quantum Physics
 
@@ -49,8 +49,6 @@ Steven Echtman : University Buffalo; AiIfy.io
 Dwayne Reddick : Technologist; Soundmind Fellowship&#x20;
 
 Julian Rocha : Berkeley; Nurrl; Artificial Intelligence Alignment
-
-Livia Panez- University Science Applied, Liquidity Pool
 
 Aaron Bisla : University Washington; Santa Clara law&#x20;
 
