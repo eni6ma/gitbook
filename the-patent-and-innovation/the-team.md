@@ -22,6 +22,8 @@ Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
 
+Dr. Octavia Sulea, PhD -  Ai/LLM Researcher&#x20;
+
 Greg Jones : Google X, Wharton Biz School
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
