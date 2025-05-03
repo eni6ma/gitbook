@@ -28,6 +28,8 @@ Greg Jones : Google X, Wharton Biz School
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
+Chris Beltran: Product Design, Berkeley&#x20;
+
 Karim Sobati : US Navy Nuclear Programme, TESC, NJ
 
 Dylan Kawalec : Researcher Cybernetics; Block Chain
