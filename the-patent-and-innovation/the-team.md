@@ -36,6 +36,8 @@ Dylan Kawalec : Researcher Cybernetics; Block Chain
 
 David Berger : Harvard; Integra Ledger
 
+Evan Keegan : NY, Biz Dev Executive Management
+
 Avkash (Kash) Chauhan :  GP @ WeTogether Ventures, xMicrosoft, xH2O.ai
 
 Eric Johnson - 1st Lt.  OCS US Army ; Defense Communication Systems&#x20;
