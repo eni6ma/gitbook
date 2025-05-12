@@ -1,5 +1,6 @@
 ---
 description: Cryptographic Accumulators of Membership Proofs - September 2024
+icon: calculator-simple
 ---
 
 # White Paper : Accumulation of Memberships
