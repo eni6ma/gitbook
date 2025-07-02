@@ -24,17 +24,19 @@ Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
 
-Greg Jones : Google X, Wharton Biz School
+Evan Keegan : NY, Biz Dev Executive Management
+
+Karim Sobati : US Navy Nuclear Programme, TESC, NJ
+
+Steven Echtman : University Buffalo; AiIfy.io
+
+Greg Jones : Google X, McKinsey, Wharton Biz School
 
 Samson Yeung : Stripe; Google; University Calif. Santa Cruz;&#x20;
 
 Chris Beltran: Product Design, Berkeley&#x20;
 
-Karim Sobati : US Navy Nuclear Programme, TESC, NJ
-
 David Berger : Harvard; Integra Ledger
-
-Evan Keegan : NY, Biz Dev Executive Management
 
 Avkash (Kash) Chauhan :  GP @ WeTogether Ventures, xMicrosoft, xH2O.ai
 
@@ -45,8 +47,6 @@ Dr. Dan Boneh : Stanford University - Director of Cryptography&#x20;
 Louis Lau : Stanford University;  PhD Candidate ; Mathematics/Cryptography
 
 Salim Masmoudi : Université Savoie Mont Blanc; MS - Computer Science
-
-Steven Echtman : University Buffalo; AiIfy.io
 
 Dwayne Reddick : Technologist; Soundmind Fellowship&#x20;
 
