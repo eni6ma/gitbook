@@ -18,11 +18,11 @@ Dr. Lin Wang - Duke University ; Quantum Physics , Signals, & Cryptography; Unit
 
 \[ advisors, researchers, contributors ]
 
+Dr. Octavia Sulea, PhD -  PARC, SRI, Ai/LLM Researcher&#x20;
+
 Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
-
-Dr. Octavia Sulea, PhD -  Ai/LLM Researcher&#x20;
 
 Greg Jones : Google X, Wharton Biz School
 
