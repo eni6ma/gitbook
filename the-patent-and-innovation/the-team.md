@@ -20,9 +20,15 @@ Dr. Lin Wang - Duke University ; Quantum Physics , Signals, & Cryptography; Unit
 
 Dr. Octavia Sulea, PhD -  PARC, SRI, Ai/LLM Researcher&#x20;
 
+Dr. Francisco Perez-Sorrosal – Yahoo Inc.
+
 Dr. Dawn Lipscomb - University California Berkeley ; Quantum Physics
 
 Dr. Anish Mohammad - MIT; Mathematics & Cryptography; Panther Protocol; ZKP Coin
+
+Dr. Matthew Richter; Stanford University - Quantum Physics
+
+Dr. Dan Boneh : Stanford University - Director of Cryptography&#x20;
 
 Evan Keegan : NY, Biz Dev Executive Management
 
@@ -39,10 +45,6 @@ Chris Beltran: Product Design, Berkeley&#x20;
 David Berger : Harvard; Integra Ledger
 
 Avkash (Kash) Chauhan :  GP @ WeTogether Ventures, xMicrosoft, xH2O.ai
-
-Dr. Matthew Richter; Stanford University - Quantum Physics
-
-Dr. Dan Boneh : Stanford University - Director of Cryptography&#x20;
 
 Louis Lau : Stanford University;  PhD Candidate ; Mathematics/Cryptography
 
