@@ -2,7 +2,7 @@
 
 ## The Eni6ma Cypher (Rosario-Wang Proof)
 
-* [MOONSHOT](README.md)
+* [MOONSHOT: A  Blueprint for Fixing Digital Trust](README.md)
 * [The Problem with Passwords](<README (1).md>)
 * [Passwords are Broken](the-eni6ma-cypher-rosario-wang-proof/passwords-are-broken.md)
 * [Overview of Rosario-Wang Proof](the-eni6ma-cypher-rosario-wang-proof/overview-of-rosario-wang-proof.md)

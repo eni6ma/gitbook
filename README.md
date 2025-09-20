@@ -4,9 +4,9 @@ description: >-
   Collective Security in the Information Age
 ---
 
-# MOONSHOT
+# MOONSHOT: A  Blueprint for Fixing Digital Trust
 
-## MOONSHOT: A  Blueprint for Fixing Digital Trust
+<figure><img src=".gitbook/assets/Screenshot 2024-09-05 at 12.17.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### The Philosophical Foundations of Our Digital Predicament
 
