@@ -2,17 +2,6 @@
 description: >-
   Eni6ma Technology and the Rosario-Wang Proof/Cypher is Patent Pending. USPTO
   2024. Copyright 2024 All right reserved. Eni6ma.org - Dylan Rosario
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Cybernetic Cryptography

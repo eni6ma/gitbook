@@ -22,9 +22,9 @@ So how long would this take to crack? Well, that depends. In the realm of high-p
 
 How much would this cost you?\
 — **1x nVidia A100 GPU MSRP: $27,671.00** [**\[Link\]**](https://www.google.com/search?q=nvidia+a100+cost)\
-**— A100 consumes 2628 kWh / year of electricity.** [**\[Link\]**](https://folding.lar.systems/gpu\_ppd/brands/nvidia/folding\_profile/ga100\_a100\_pcie\_40gb)\
-**— 2628 kWh @ $10 /hr = $26,280/year**\
-_($10/kWh : Alaska cheapest price_ [_\[Link\]_](https://www.electricchoice.com/electricity-prices-by-state/) _)_
+&#xNAN;**— A100 consumes 2628 kWh / year of electricity.** [**\[Link\]**](https://folding.lar.systems/gpu_ppd/brands/nvidia/folding_profile/ga100_a100_pcie_40gb)\
+&#xNAN;**— 2628 kWh @ $10 /hr = $26,280/year**\
+&#xNAN;_($10/kWh : Alaska cheapest price_ [_\[Link\]_](https://www.electricchoice.com/electricity-prices-by-state/) _)_
 
 **229.5 years X $26,280 elect. = $6,000,000**\
 **1x nVidia A100 GPU \~MSRP = $27,000** _(cost per A100 GPU)_\
@@ -46,8 +46,8 @@ So you can crack the 128bit / 16 char password for approximately:
 ## Password Hacking is Not Worth It! <a href="#a807" id="a807"></a>
 
 When it is all said and done, cracking a 16-character, 128-bit password could cost approximately:\
-**— 1 YEAR: $12,000,000 ($12 Million)**\
-**— 228 YEARS: $6,027,000 ($6 Million)**
+&#xNAN;**— 1 YEAR: $12,000,000 ($12 Million)**\
+&#xNAN;**— 228 YEARS: $6,027,000 ($6 Million)**
 
 The prospect of spending such an astronomical amount to crack a single 16-character, 128-bit password borders on the ludicrous, especially when considering the financial context of an average American. With an estimated cost of up to $12,000,000 to breach this password within a year, or $6,027,000 over 228 years, the economics of such an endeavor simply do not add up for the typical individual.
 
@@ -218,25 +218,25 @@ In this equation, _h_(_P_) represents the cryptographic fingerprint of the passw
 
 Generation of a Data Point in a Rainbow Table; Initial password to first transformed password:
 
-> _P_1​=_R_(_h_(_P_0​))
+> _&#x50;_&#x31;​=_R_(_h_(_&#x50;_&#x30;​))
 
 Subsequent transformations:
 
-> _P_2​=_R_(_h_(_P_1​))
+> _&#x50;_&#x32;​=_R_(_h_(_&#x50;_&#x31;​))
 >
 > ⋮
 >
-> _P_2​=_R_(_h_(_P_1​))
+> _&#x50;_&#x32;​=_R_(_h_(_&#x50;_&#x31;​))
 
-These equations represent the iterative process of transforming an initial password _P_o​ through its cryptographic fingerprint and subsequent passwords in the sequence.
+These equations represent the iterative process of transforming an initial password _&#x50;_&#x6F;​ through its cryptographic fingerprint and subsequent passwords in the sequence.
 
-Condition for Ending the Sequence; The sequence continues until the fingerprint ℎ(_Pn_​)begins with 20 zeros, represented as:
+Condition for Ending the Sequence; The sequence continues until the fingerprint ℎ(_P&#x6E;_&#x200B;)begins with 20 zeros, represented as:
 
-> _h_(_Pn_​)=00…0 (20 zeros)
+> _h_(_P&#x6E;_&#x200B;)=00…0 (20 zeros)
 
 Final Pair Stored in the Rainbow Table; The pair stored in the rainbow table is the initial password and the end fingerprint:
 
-> \[_P_0​,_h_(_Pn_​)]
+> \[_&#x50;_&#x30;​,_h_(_P&#x6E;_&#x200B;)]
 
 The pre-computation phase, albeit extensive, facilitates the rapid retrieval of any password associated with a known fingerprint. This is a testament to the efficacy of storing only the start and end points of each computational chain.
 
